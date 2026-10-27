@@ -34,3 +34,6 @@ dev = [
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+[tool.vercel]
+entrypoint = "app_streamlit.py"
