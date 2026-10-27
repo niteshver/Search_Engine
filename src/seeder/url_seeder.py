@@ -9,6 +9,7 @@ import logging
 import time
 import tempfile
 from datetime import datetime
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Set
 from collections import defaultdict
@@ -29,6 +30,21 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+@dataclass
+class URLSeederConfig:
+    """Configuration accepted by the pipeline's legacy seeder API."""
+
+    output_dir: str = "./data/raw/sitemap"
+    rate_limit_per_domain: float = 0.5
+    max_retries: int = 3
+    incremental_mode: bool = True
+    batch_size: int = 3
+    parallel_batches: bool = True
+    request_timeout: float = 30.0
+    max_concurrent_per_domain: int = 5
+    stream_to_disk: bool = True
 
 
 class EnterpriseURLSeeder:
@@ -357,6 +373,43 @@ class EnterpriseURLSeeder:
         logger.info(f"✓ Generated seeds JSON: {output_path}")
         logger.info(f"  File size: {file_size_mb:.1f} MB")
         
+        return str(output_path)
+
+
+class URLSeeder(EnterpriseURLSeeder):
+    """Compatibility adapter for the pipeline seeder interface."""
+
+    def __init__(self, config: Optional[URLSeederConfig] = None):
+        super().__init__()
+        self.config = config or URLSeederConfig()
+        self.all_urls = self.discovered_urls
+        self.failed_domains = self.failed_sources
+
+    async def discover_urls(self, use_bm25_scoring: bool = False) -> Dict[str, Any]:
+        """Discover URLs using the configured enterprise source catalog."""
+        return await self.seed_urls(tier_mode="all")
+
+    def save_to_json(self, filename: str = "seeds.json") -> str:
+        """Write the JSON output where the pipeline expects it."""
+        output_path = Path(self.config.output_dir) / filename
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        data = {
+            "total_urls": len(self.discovered_urls),
+            "urls": sorted(self.discovered_urls),
+            "by_source": self.urls_by_source,
+            "failed_sources": self.failed_sources,
+        }
+        output_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        return str(output_path)
+
+    def generate_sitemap_xml(self, filename: str = "master_seed.xml") -> str:
+        """Write the XML sitemap where the pipeline expects it."""
+        output_path = Path(self.config.output_dir) / filename
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        urlset = ET.Element("urlset", {"xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9"})
+        for url in sorted(self.discovered_urls):
+            ET.SubElement(ET.SubElement(urlset, "url"), "loc").text = url
+        ET.ElementTree(urlset).write(output_path, encoding="utf-8", xml_declaration=True)
         return str(output_path)
 
 
