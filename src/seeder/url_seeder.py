@@ -13,7 +13,9 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional, Set
 from collections import defaultdict
 import uuid
+import os
 import xml.etree.ElementTree as ET
+from urllib.parse import urlsplit, urlunsplit
 
 from crawl4ai import AsyncUrlSeeder, SeedingConfig
 from crawl4ai.deep_crawling import BFSDeepCrawlStrategy
@@ -179,22 +181,15 @@ class EnterpriseURLSeeder:
                 self.urls_by_source[domain] = []
                 return
             
-            valid_urls = []
+            candidate_urls = []
             for url_entry in urls_data:
-                if isinstance(url_entry, dict):
-                    url = url_entry.get('url', '')
-                else:
-                    url = str(url_entry)
-                
-                if url and url.startswith('http'):
-                    self.discovered_urls.add(url)
-                    valid_urls.append({
-                        'url': url,
-                        'source': domain,
-                        'discovered_at': datetime.now().isoformat(),
-                    })
-            
-            self.urls_by_source[domain] = valid_urls
+                candidate_urls.append(
+                    url_entry.get('url', '') if isinstance(url_entry, dict) else str(url_entry)
+                )
+            before = len(self.discovered_urls)
+            self.add_crawl_domain(domain, candidate_urls)
+            valid_urls = self.urls_by_source.get(domain, [])
+            newly_added = len(self.discovered_urls) - before
             self.source_metrics[domain] = {
                 'urls_discovered': len(valid_urls),
                 'estimated_urls': source_config.get('urls_estimate', 0),
@@ -245,6 +240,38 @@ class EnterpriseURLSeeder:
         
         logger.info(f"{'='*90}\n")
     
+    @staticmethod
+    def normalize_url(url: str) -> str:
+        """Return a stable URL form for deduplication and sitemap output."""
+        parsed = urlsplit(url.strip())
+        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            return ""
+        return urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path or "/", parsed.query, ""))
+
+    def add_crawl_domain(self, domain: str, urls: List[str]) -> int:
+        """Add crawlable URLs for a domain and return the number newly added."""
+        normalized_domain = domain.strip().lower()
+        added = 0
+        records = self.urls_by_source.setdefault(normalized_domain, [])
+        existing = {record["url"] for record in records}
+        for raw_url in urls:
+            url = self.normalize_url(raw_url)
+            if not url or url in self.discovered_urls:
+                continue
+            self.discovered_urls.add(url)
+            records.append({
+                "url": url,
+                "source": normalized_domain,
+                "discovered_at": datetime.now().isoformat(),
+            })
+            added += 1
+        self.source_metrics.setdefault(normalized_domain, {})["urls_discovered"] = len(records)
+        return added
+
+    def finalize_crawl_domain(self, filename: str = "master_seed.xml") -> str:
+        """Finalize a crawl domain by writing the deduplicated master sitemap."""
+        return self.save_master_sitemap_xml(filename)
+
     def save_master_sitemap_xml(self, filename: str = "master_seed.xml") -> str:
         """
         Generate master_seed.xml - The main sitemap for crawling.
@@ -277,14 +304,12 @@ class EnterpriseURLSeeder:
         temp_fd, temp_path = tempfile.mkstemp(text=True, suffix='.xml')
         try:
             tree = ET.ElementTree(urlset)
-            tree.write(temp_fd, encoding='utf-8', xml_declaration=True)
+            with os.fdopen(temp_fd, "wb") as temp_file:
+                tree.write(temp_file, encoding="utf-8", xml_declaration=True)
             Path(temp_path).replace(output_path)
-        finally:
-            try:
-                import os
-                os.close(temp_fd)
-            except:
-                pass
+        except Exception:
+            Path(temp_path).unlink(missing_ok=True)
+            raise
         
         file_size_mb = output_path.stat().st_size / (1024 * 1024)
         logger.info(f"✓ Generated master sitemap: {output_path}")
