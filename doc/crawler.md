@@ -6,6 +6,7 @@ General-purpose search engines like Google are excellent for finding information
 
 NexaSearch is built to solve this problem. Instead of competing with traditional search engines on the size of the web, we focus on the depth and quality of technical information.
 
+hgjfkjfhgdsjkgggjlf
 Our goal is to help developers, researchers, and AI practitioners search deeply across documentation, GitHub repositories, research papers, and PDFs—even down to a specific paragraph or sentence.
 
 > **We don't compete in data. We compete in depth.**

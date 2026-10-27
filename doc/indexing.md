@@ -18,6 +18,7 @@ NexaSearch maintains both lexical and semantic indexes to support hybrid search,
 
 ---
 
+
 ## Indexing Pipeline
 
 ```text
