@@ -25,5 +25,6 @@ COPY *.py ./
 ENV PATH="/app/.venv/bin:$PATH"
 ENV PYTHONUNBUFFERED=1
 
-# Default command
-CMD ["python", "-m", "src.pipeline.orchestrator"]
+# Railway provides PORT at runtime; Streamlit must bind to all interfaces.
+EXPOSE 8501
+CMD ["sh", "-c", "streamlit run app_streamlit.py --server.address=0.0.0.0 --server.port=${PORT:-8501} --server.headless=true"]
