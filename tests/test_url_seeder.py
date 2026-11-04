@@ -29,3 +29,39 @@ def test_finalize_crawl_domain_writes_valid_deduplicated_sitemap(tmp_path, monke
 
     assert output.exists()
     assert output.read_text(encoding="utf-8").count("<loc>https://example.com/a</loc>") == 1
+
+def test_master_seed_xml_validation(tmp_path, monkeypatch):
+    import xml.etree.ElementTree as ET
+
+    seeder = EnterpriseURLSeeder()
+
+    seeder.add_crawl_domain(
+        "example.com",
+        [
+            "https://example.com/python",
+            "https://example.com/java",
+            "https://example.com/python",
+        ],
+    )
+
+    monkeypatch.setattr(
+        "src.seeder.url_seeder.settings.BASE_DIR",
+        tmp_path,
+    )
+
+    output = Path(seeder.finalize_crawl_domain())
+
+    tree = ET.parse(output)
+    root = tree.getroot()
+
+    namespace = {
+        "sm": "http://www.sitemaps.org/schemas/sitemap/0.9"
+    }
+
+    urls = [
+        element.text
+        for element in root.findall("sm:url/sm:loc", namespace)
+    ]
+
+    assert len(urls) == 2
+    assert len(urls) == len(set(urls))

@@ -301,7 +301,10 @@ class EnterpriseURLSeeder:
             priority.text = '0.8'
         
         # Atomic write
-        temp_fd, temp_path = tempfile.mkstemp(text=True, suffix='.xml')
+        temp_fd, temp_path = tempfile.mkstemp(
+            suffix=".xml",
+            dir=output_path.parent,
+        )
         try:
             tree = ET.ElementTree(urlset)
             with os.fdopen(temp_fd, "wb") as temp_file:
