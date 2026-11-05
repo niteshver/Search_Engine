@@ -2,6 +2,7 @@ Indexing
 chunking
 config
 crawler
+dedup
 embedding
 pipeline
 processing
