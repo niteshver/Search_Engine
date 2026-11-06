@@ -28,11 +28,59 @@ from dataclasses import dataclass, asdict
 from collections import defaultdict
 
 from src.config.settings import settings
-from src.seeder.url_seeder import URLSeeder, URLSeederConfig
 from src.crawler.crawler import CrawlerManager
-from src.crawler.logger import logger
+from src.crawler.logger import logger as crawler_logger
+from src.storage.duckdb_store import DuckDBStore
+from src.search.engine import SearchEngine
+from src.chunking.chunker import DocumentChunker
+from src.quality.quality_filter import QualityFilter
+
+try:
+    from src.seeder.url_seeder import EnterpriseURLSeeder
+except ImportError:  # pragma: no cover
+    EnterpriseURLSeeder = None
 
 logger = logging.getLogger(__name__)
+
+
+@dataclass
+class URLSeederConfig:
+    """Compatibility config used by the legacy pipeline runner."""
+    output_dir: str = "./data/raw/sitemap"
+    rate_limit_per_domain: float = 0.5
+    max_retries: int = 3
+    incremental_mode: bool = True
+    batch_size: int = 3
+    parallel_batches: bool = True
+    request_timeout: float = 30.0
+    max_concurrent_per_domain: int = 5
+    stream_to_disk: bool = True
+
+
+class URLSeeder:
+    """Compatibility wrapper around the repository's actual enterprise URL seeder."""
+    def __init__(self, config: Optional[URLSeederConfig] = None, **kwargs):
+        if EnterpriseURLSeeder is None:
+            raise ImportError("src.seeder.url_seeder is unavailable; install the project dependencies.")
+        self.config = config or URLSeederConfig()
+        self._internal = EnterpriseURLSeeder()
+        self.all_urls: List[str] = []
+        self.failed_domains: List[str] = []
+
+    async def discover_urls(self, use_bm25_scoring: bool = False, **kwargs):
+        result = await self._internal.seed_urls(tier_mode="top30" if not kwargs.get("domains") else "all")
+        urls = sorted({item for items in result.get("urls_by_source", {}).values() for item in [u.get("url") for u in items]})
+        self.all_urls = urls
+        self.failed_domains = [
+            domain for domain, details in result.get("failed_sources", []).items()
+        ] if isinstance(result.get("failed_sources", {}), dict) else []
+        return result.get("urls_by_source", {})
+
+    def save_to_json(self, filename: str):
+        return self._internal.save_comprehensive_json(filename)
+
+    def generate_sitemap_xml(self, filename: str):
+        return self._internal.save_master_sitemap_xml(filename)
 
 
 @dataclass
@@ -101,6 +149,23 @@ class SearchEnginePipeline:
         # Metrics
         self.metrics: List[PipelineMetrics] = []
         self.checkpoint_file = self.output_base / ".pipeline_checkpoint.json"
+
+        # Compatibility interfaces used by the UI/CLI
+        self.crawler = CrawlerManager(
+            max_pages=settings.CRAWL_MAX_PAGES,
+            max_depth=settings.CRAWL_MAX_DEPTH,
+        )
+        self.quality = QualityFilter(
+            threshold=settings.QUALITY_THRESHOLD,
+            min_words=settings.MIN_WORD_COUNT,
+            max_words=settings.MAX_WORD_COUNT,
+        )
+        self.chunker = DocumentChunker(
+            chunk_size=settings.CHUNK_SIZE,
+            chunk_overlap=settings.CHUNK_OVERLAP,
+        )
+        self.store = DuckDBStore(str(settings.absolute_db_path))
+        self.search_engine = None
     
     def _init_stages(self) -> None:
         """Initialize pipeline stages."""
@@ -113,6 +178,133 @@ class SearchEnginePipeline:
             'embedding': PipelineStage('Embedding Generation'),
             'indexing': PipelineStage('Vector Indexing'),
         }
+
+    def _is_url_list(self, values: Optional[List[str]]) -> bool:
+        if not isinstance(values, list):
+            return False
+        if not values:
+            return False
+        return all(isinstance(v, str) and (v.startswith("http://") or v.startswith("https://") or v.startswith("www.")) for v in values)
+
+    async def _run_compatibility_crawl(self, urls: List[str]) -> Dict[str, Any]:
+        """Compatibility runner used by the Streamlit app and CLI.
+
+        Keeps the current crawl/indexing workflow intact while returning the
+        structure expected by the UI and CLI.
+        """
+        start_time = time.time()
+        if not urls:
+            return {
+                "success": False,
+                "status": "no_urls",
+                "total_time_seconds": 0.0,
+                "stages": {},
+            }
+
+        crawled = await self.crawler.crawl(urls)
+        crawl_time = time.time() - start_time
+
+        filtered_docs, quality_stats = self.quality.filter_documents(crawled)
+        quality_time = time.time() - start_time - crawl_time
+
+        chunked_documents = self.chunker.chunk_batch(filtered_docs)
+        chunk_time = time.time() - start_time - crawl_time - quality_time
+
+        if chunked_documents:
+            self.store.save_documents(filtered_docs)
+            self.store.save_chunks(chunked_documents)
+            self.search_engine = SearchEngine()
+            self.search_engine.index(chunked_documents)
+        else:
+            self.search_engine = SearchEngine()
+
+        index_time = time.time() - start_time - crawl_time - quality_time - chunk_time
+        elapsed = time.time() - start_time
+
+        return {
+            "success": True,
+            "status": "completed",
+            "start_time": datetime.now().isoformat(),
+            "total_time_seconds": round(elapsed, 2),
+            "stages": {
+                "crawl": {
+                    "crawled_count": len(crawled),
+                    "time_seconds": round(crawl_time, 2),
+                },
+                "deduplicate": {
+                    "output_count": len(filtered_docs),
+                    "exact_duplicates": 0,
+                    "near_duplicates": 0,
+                    "time_seconds": 0.0,
+                },
+                "quality_filter": {
+                    "input_count": len(crawled),
+                    "output_count": quality_stats.get("output_count", 0),
+                    "filtered_out": quality_stats.get("filtered_out", 0),
+                    "time_seconds": round(quality_time, 2),
+                },
+                "chunker": {
+                    "input_count": len(filtered_docs),
+                    "output_count": len(chunked_documents),
+                    "time_seconds": round(chunk_time, 2),
+                },
+                "index": {
+                    "output_count": len(chunked_documents),
+                    "time_seconds": round(index_time, 2),
+                },
+            },
+        }
+
+    def get_stats(self) -> Dict[str, Any]:
+        """Return the counters expected by the UI and CLI."""
+        return {
+            "document_count": self.store.get_document_count(),
+            "chunk_count": self.store.get_chunk_count(),
+            "db_path": str(settings.absolute_db_path),
+            "index_dir": str(settings.absolute_index_dir),
+        }
+
+    def search(self, query: str, top_k: int = 10, use_vector: bool = True, use_rerank: bool = True) -> List[Dict[str, Any]]:
+        """Compatibility wrapper around the search engine implementation."""
+        if not query or not str(query).strip():
+            return []
+
+        chunks = self.store.get_all_chunks()
+        if not chunks:
+            return []
+
+        if self.search_engine is None:
+            self.search_engine = SearchEngine()
+        if not getattr(self.search_engine, "bm25_index", None) or not self.search_engine.bm25_index.chunks:
+            self.search_engine.index(chunks)
+
+        try:
+            results = self.search_engine.search(
+                str(query),
+                top_k=top_k,
+                use_vector=use_vector,
+                use_rerank=use_rerank,
+            )
+            return results
+        except Exception as exc:
+            logger.warning(f"Hybrid search failed; falling back to BM25: {exc}")
+            bm25 = self.search_engine.bm25_index
+            bm25_results = bm25.search(str(query), top_k=top_k)
+            results = []
+            for idx, item in enumerate(bm25_results):
+                chunk = item[0]
+                results.append({
+                    "rank": idx + 1,
+                    "chunk_id": chunk.get("chunk_id"),
+                    "doc_id": chunk.get("doc_id"),
+                    "title": chunk.get("title"),
+                    "url": chunk.get("url"),
+                    "heading": chunk.get("heading"),
+                    "snippet": (chunk.get("text", "")[:250] + "...") if len(chunk.get("text", "")) > 250 else chunk.get("text", ""),
+                    "score": round(float(item[1]), 4),
+                    "quality_score": chunk.get("metadata", {}).get("quality_score", 0.5),
+                })
+            return results
     
     async def run(
         self,
@@ -121,14 +313,19 @@ class SearchEnginePipeline:
     ) -> Dict[str, Any]:
         """
         Execute the complete pipeline.
-        
-        Args:
-            stages: Specific stages to run (default: all)
-            resume_from: Resume from a specific stage (skip prior stages)
-            
-        Returns:
-            Pipeline results and metrics
+
+        Compatibility note:
+        - Existing pipeline usage: pipeline.run(stages=[...], resume_from=...)
+        - UI/CLI usage: pipeline.run(urls)
         """
+        if self._is_url_list(stages):
+            return await self._run_compatibility_crawl(stages)
+
+        if stages and isinstance(stages, list) and stages and all(isinstance(s, str) and s.lower() not in self.stages for s in stages):
+            candidate_urls = [s for s in stages if isinstance(s, str)]
+            if self._is_url_list(candidate_urls):
+                return await self._run_compatibility_crawl(candidate_urls)
+
         logger.info(f"\n{'='*80}")
         logger.info(f"[PIPELINE] Starting Vertical Search Engine Pipeline")
         logger.info(f"{'='*80}\n")
@@ -386,6 +583,11 @@ class SearchEnginePipeline:
                 }, f, indent=2)
         except Exception as e:
             logger.warning(f"Could not save checkpoint: {e}")
+
+
+class NexaSearchPipeline(SearchEnginePipeline):
+    """Backward-compatible pipeline name expected by the app and CLI."""
+    pass
 
 
 async def main():

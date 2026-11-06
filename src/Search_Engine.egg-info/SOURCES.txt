@@ -10,6 +10,7 @@ src/Search_Engine.egg-info/requires.txt
 src/Search_Engine.egg-info/top_level.txt
 src/chunking/__init__.py
 src/chunking/chunker.py
+src/config/Untitled-1.py
 src/config/settings.py
 src/crawler/config.py
 src/crawler/constants.py
@@ -20,7 +21,13 @@ src/crawler/models.py
 src/crawler/robots.py
 src/crawler/sitemap.py
 src/crawler/utils.py
+src/dedup/__init__.py
+src/dedup/example_usage.py
+src/dedup/lsh_finder.py
+src/dedup/metrics.py
+src/dedup/url_dedup.py
 src/embedding/embedder.py
+src/pipeline/__init__.py
 src/pipeline/orchestrator.py
 src/processing/cleaner.py
 src/processing/deduplication.py
@@ -31,6 +38,7 @@ src/quality/quality_filter.py
 src/search/bm25_index.py
 src/search/engine.py
 src/seeder/sources.py
+src/seeder/testing.py
 src/seeder/url_seeder.py
 src/storage/duckdb_store.py
 tests/test_chunker.py
@@ -39,3 +47,4 @@ tests/test_deduplication.py
 tests/test_indexing.py
 tests/test_lsh.py
 tests/test_quality.py
+tests/test_url_seeder.py
