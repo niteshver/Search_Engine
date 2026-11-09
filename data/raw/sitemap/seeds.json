@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "total_urls": 30994,
-    "sources_succeeded": 40,
-    "sources_failed": 3,
+    "total_urls": 31419,
+    "sources_succeeded": 42,
+    "sources_failed": 5,
     "discovered_at": "2026-08-05T08:35:13.673988",
     "correlation_id": "0b36243d",
     "estimated_urls": 3512000,
@@ -29720,6 +29720,431 @@
     "https://us.aws.cdn.hf.co/xet-bridge-us/67d2901bb23086b5c24c4e39/3bcaa95b9de5a227b7a706903fb8d49ee51cb854b077b49d3bfaeadcab325929?X-Xet-Cas-Uid=public&user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27epiCPhotoXL.safetensors%3B+filename%3D%22epiCPhotoXL.safetensors%22%3B&Expires=1785871124&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjdkMjkwMWJiMjMwODZiNWMyNGM0ZTM5LzNiY2FhOTViOWRlNWEyMjdiN2E3MDY5MDNmYjhkNDllZTUxY2I4NTRiMDc3YjQ5ZDNiZmFlYWRjYWIzMjU5MjlcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3ZXBpQ1Bob3RvWEwuc2FmZXRlbnNvcnMlM0IrZmlsZW5hbWUlM0QlMjJlcGlDUGhvdG9YTC5zYWZldGVuc29ycyUyMiUzQiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRXBvY2hUaW1lIjoxNzg1ODcxMTI0fX19XX0_&Signature=MEUCIB7pzDwQ9tIve73-qN-45GndxrQL6tR4KrqHwxl3nIKiAiEAvZwMRDz6nEoPM-LupBkQBHksg3xeus8m1ChFkHkFMQ4_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F",
     "https://us.aws.cdn.hf.co/xet-bridge-us/69aff19005292d5180b11d78/dcf87ddf2388c18f13bfaefe401a362064e8b9eec7d027028fa75f761c8f417c?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27klein-9b_detail_slider_v1.safetensors%3B+filename%3D%22klein-9b_detail_slider_v1.safetensors%22%3B&user_id=public&Expires=1785873862&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjlhZmYxOTAwNTI5MmQ1MTgwYjExZDc4L2RjZjg3ZGRmMjM4OGMxOGYxM2JmYWVmZTQwMWEzNjIwNjRlOGI5ZWVjN2QwMjcwMjhmYTc1Zjc2MWM4ZjQxN2NcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3a2xlaW4tOWJfZGV0YWlsX3NsaWRlcl92MS5zYWZldGVuc29ycyUzQitmaWxlbmFtZSUzRCUyMmtsZWluLTliX2RldGFpbF9zbGlkZXJfdjEuc2FmZXRlbnNvcnMlMjIlM0ImdXNlcl9pZD1wdWJsaWMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc4NTg3Mzg2Mn19fV19&Signature=MEYCIQCjDFJLQFt8ndYx-80jFqcsDsKnEmy1rMfV56e7tGGW1gIhANDKOlXg%7EU5O8TnWq%7ErsR89ZoAVXiJqhUOEz6yPSCRJy&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F",
     "https://us.aws.cdn.hf.co/xet-bridge-us/69f9a9bc2468401132c64481/8bf94cfdd00d5f812ae39e7d1df33876e18bd9e5a4323bd30e6c04aefc27b150?X-Xet-Cas-Uid=public&user_id=public&response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27SAT_train.parquet%3B+filename%3D%22SAT_train.parquet%22%3B&Expires=1785871125&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjlmOWE5YmMyNDY4NDAxMTMyYzY0NDgxLzhiZjk0Y2ZkZDAwZDVmODEyYWUzOWU3ZDFkZjMzODc2ZTE4YmQ5ZTVhNDMyM2JkMzBlNmMwNGFlZmMyN2IxNTBcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN1NBVF90cmFpbi5wYXJxdWV0JTNCK2ZpbGVuYW1lJTNEJTIyU0FUX3RyYWluLnBhcnF1ZXQlMjIlM0IiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc4NTg3MTEyNX19fV19&Signature=MEUCIC9jgtsmJAzd2IZZ0AU376PNOMxGa3QO7DLizzaz0mO%7EAiEA6flUtMkYDyCrTDU0H3oM0rEWuu7OjWcUPA-lNRf8B2c_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F",
+    "https://www.anthropic.com/engineering/building-effective-agents",
+    "https://www.anthropic.com/research/",
+    "https://www.anthropic.com/research/2026-agentic-coding-trends",
+    "https://www.anthropic.com/research/2028-ai-leadership",
+    "https://www.anthropic.com/research/2028-ai-leadership.",
+    "https://www.anthropic.com/research/2028-ai-leadership?ref=steampunkai.com",
+    "https://www.anthropic.com/research/2028-ai-leadership?utm_source=enterpriseaiexecutive.ai&utm_medium=referral&utm_campaign=microsoft-s-6-step-agentic-transformation-playbook",
+    "https://www.anthropic.com/research/81k-economics",
+    "https://www.anthropic.com/research/81k-economics?ref=3min.dk",
+    "https://www.anthropic.com/research/81k-economics?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=why-you-should-never-trust-a-free-chatbot",
+    "https://www.anthropic.com/research/AI-assistance-coding-skills",
+    "https://www.anthropic.com/research/AI-assistance-coding-skills?e45d281a_page=1&utm_cta=website-be-trending-cloud-marketing-dummies-ebk&mkt_tok=aw.ds",
+    "https://www.anthropic.com/research/AI-assistance-coding-skills?ref=techstories.co",
+    "https://www.anthropic.com/research/AI-fluency-index",
+    "https://www.anthropic.com/research/AI-fluency-index?ref=techtech.club",
+    "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment",
+    "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits",
+    "https://www.anthropic.com/research/accessibility",
+    "https://www.anthropic.com/research/agentic-misalignment",
+    "https://www.anthropic.com/research/agentic-misalignment?ref=airevolution.poltextlab.com",
+    "https://www.anthropic.com/research/agentic-misalignment?ref=deconstructingbabel.com",
+    "https://www.anthropic.com/research/agentic-misalignment?ref=frenchtechjournal.com",
+    "https://www.anthropic.com/research/agentic-misalignment?ref=implicator.ai",
+    "https://www.anthropic.com/research/agentic-misalignment?ref=opulentia.vc",
+    "https://www.anthropic.com/research/agentic-misalignment?ref=themetaslave.com",
+    "https://www.anthropic.com/research/agentic-misalignment?ref=theopeneyedman.com",
+    "https://www.anthropic.com/research/agentic-misalignment?utm_source=convertkit&utm_medium=email&utm_campaign=caelanhuntress",
+    "https://www.anthropic.com/research/agentic-misalignment?utm_source=tldrai",
+    "https://www.anthropic.com/research/agentic-misalignment?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=big-tech-s-ai-shopping-spree",
+    "https://www.anthropic.com/research/agents-in-biology",
+    "https://www.anthropic.com/research/alignment-evals?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/alignment-faking",
+    "https://www.anthropic.com/research/alignment-faking.",
+    "https://www.anthropic.com/research/alignment-faking?ref=deconstructingbabel.com",
+    "https://www.anthropic.com/research/alignment-faking?ref=steampunkai.com",
+    "https://www.anthropic.com/research/alignment-faking?ref=swarmsignal.net",
+    "https://www.anthropic.com/research/alignment-faking?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/alignment-faking?utm_source=hackernewsletter&utm_medium=email&utm_term=watching",
+    "https://www.anthropic.com/research/alignment-faking?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=chatgpt-now-available-for-call",
+    "https://www.anthropic.com/research/alignment-faking?utm_source=www.smarterwithai.news&utm_medium=referral&utm_campaign=sunbrief-8-google-challanges-openai",
+    "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+    "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?_sc=NTIyMjE5NiMyMTI1&utm_campaign=Murmur_Paatch++15+JANVIER+2026&utm_medium=email&utm_source=sendinblue",
+    "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=100-school.beehiiv.com&utm_medium=referral&utm_campaign=i-was-wrong-ai-is-eating-the-complex-work-first",
+    "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=thedeepview&utm_medium=newsletter&utm_campaign=openai-leads-smb-as-anthropic-wins-enterprise",
+    "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=ads-are-coming",
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_",
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=fullstackHR",
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=gradientflow&utm_medium=newsletter",
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=superhuman&utm_medium=referral&utm_campaign=the-ai-soul-computer",
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=google-s-googling-silently",
+    "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=www.productreport.ai&utm_medium=newsletter&utm_campaign=quick-news-on-a-tuesday&_bhlid=c482cbb1ebee1ff6f947c50d3694b5b449f694c1",
+    "https://www.anthropic.com/research/anthropic-institute-agenda",
+    "https://www.anthropic.com/research/anthropic-institute-agenda?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=claude-mythos-breaks-the-ruler",
+    "https://www.anthropic.com/research/anthropic-interviewer",
+    "https://www.anthropic.com/research/anthropic-public-record",
+    "https://www.anthropic.com/research/anthropics-responsible-scaling-policy?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/assistant-axis",
+    "https://www.anthropic.com/research/assistant-axis?utm_source=www.smarterwithai.news&utm_medium=referral&utm_campaign=wedvault-64-claude-expands-ai-with-direct-health-data-access",
+    "https://www.anthropic.com/research/attack-navigator",
+    "https://www.anthropic.com/research/attack-navigator?utm_source=ainews247.org&utm_medium=referral&utm_campaign=ai_news_stories&utm_content=story_story_detail_id_216480",
+    "https://www.anthropic.com/research/attack-navigator?utm_source=tldrsec.com&utm_medium=referral&utm_campaign=tl-dr-sec-332-i-ve-joined-openai-fwd-cloudsec-aws-well-architected-supply-chain-security",
+    "https://www.anthropic.com/research/au",
+    "https://www.anthropic.com/research/auditing-hidden-objectives",
+    "https://www.anthropic.com/research/auditing-hidden-objectives/?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/auditing-hidden-objectives?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/auditing-language-models-for-hidden-objectives?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/automated-alignment-auditing?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/automated-alignment-researchers",
+    "https://www.anthropic.com/research/biorisk",
+    "https://www.anthropic.com/research/bloom",
+    "https://www.anthropic.com/research/bloom?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=gpt-s-spotify-wrapped-for-ai-obsessed",
+    "https://www.anthropic.com/research/bloom?utm_source=www.ainauten.com&utm_medium=referral&utm_campaign=weekly-ai-news-was-verpasst",
+    "https://www.anthropic.com/research/building-ai-cyber-defenders",
+    "https://www.anthropic.com/research/building-ai-cyber-defenders?ref=theleftshift.com",
+    "https://www.anthropic.com/research/building-ai-cyber-defenders?utm_source=www.blacklynxbrief.com&utm_medium=referral&utm_campaign=judgment-day-for-real-this-time",
+    "https://www.anthropic.com/research/building-effective-agents?ref=blog.getzep.com",
+    "https://www.anthropic.com/research/building-effective-agents?ref=copenhagen-review-of-communication.com",
+    "https://www.anthropic.com/research/building-effective-agents?ref=llm101.ai",
+    "https://www.anthropic.com/research/building-effective-agents?ref=louisbouchard.ai",
+    "https://www.anthropic.com/research/building-effective-agents?ref=swarmsignal.net",
+    "https://www.anthropic.com/research/building-effective-agents?utm_source=aiwithallie.beehiiv.com&utm_medium=referral&utm_campaign=my-entire-2024-ai-recap-take-a-deep-breath-before-reading",
+    "https://www.anthropic.com/research/building-effective-agents?utm_source=makers-make.beehiiv.com&utm_medium=referral&utm_campaign=saasykit-birthday-sale-last-chance-overcoming-ai-anxiety-my-take-on-vibe-coding-vs-agentic-engineering-the-death-of-saas-has-been-greatly-exaggerated-more",
+    "https://www.anthropic.com/research/building-effective-agents?utm_source=thesummary.ai&utm_medium=referral&utm_campaign=deepseek-redefines-open-ai",
+    "https://www.anthropic.com/research/building-effective-agentsWhy",
+    "https://www.anthropic.com/research/building-effective-ai-agents?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/circuits-updates-april-2024",
+    "https://www.anthropic.com/research/circuits-updates-august-2024",
+    "https://www.anthropic.com/research/circuits-updates-july-2024",
+    "https://www.anthropic.com/research/circuits-updates-june-2024",
+    "https://www.anthropic.com/research/circuits-updates-may-2023",
+    "https://www.anthropic.com/research/circuits-updates-sept-2024",
+    "https://www.anthropic.com/research/claude-3-5-sonnet",
+    "https://www.anthropic.com/research/claude-3-model-card",
+    "https://www.anthropic.com/research/claude-4-cyber",
+    "https://www.anthropic.com/research/claude-4-model-card",
+    "https://www.anthropic.com/research/claude-character",
+    "https://www.anthropic.com/research/claude-character?ref=danielcorin.com",
+    "https://www.anthropic.com/research/claude-character?utm_source=decodemail&utm_medium=referral&utm_campaign=ai-gave-me-a-husband",
+    "https://www.anthropic.com/research/claude-code",
+    "https://www.anthropic.com/research/claude-code-expertise",
+    "https://www.anthropic.com/research/claude-code-expertise?ref=soragui.com",
+    "https://www.anthropic.com/research/claude-code-expertise?utm_source=www.alertaia.com&utm_medium=referral&utm_campaign=dentro-del-bloqueo-que-mantiene-a-mythos-fuera-de-linea",
+    "https://www.anthropic.com/research/claude-opus-4-6",
+    "https://www.anthropic.com/research/claude-opus-47-technical-brief",
+    "https://www.anthropic.com/research/claude-personal-guidance",
+    "https://www.anthropic.com/research/claude-personal-guidance?utm_source=romaindelfosse&utm_medium=veille&utm_campaign=veille-cdo",
+    "https://www.anthropic.com/research/claude-plays-robotics",
+    "https://www.anthropic.com/research/claude-usage-survey",
+    "https://www.anthropic.com/research/claude-values-models-languages",
+    "https://www.anthropic.com/research/clio",
+    "https://www.anthropic.com/research/clio?ref=blog.cc-korea.com",
+    "https://www.anthropic.com/research/clio?ref=platformer.news",
+    "https://www.anthropic.com/research/clio?utm_source=modernchaos.heytwist.com&utm_medium=referral&utm_campaign=mc-65-what-ai-early-adopters-are-doing",
+    "https://www.anthropic.com/research/coding-agents-social-sciences",
+    "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input",
+    "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input?ref=blog.cc-korea.com",
+    "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input?utm_source=www.smarterwithai.news&utm_medium=referral&utm_campaign=sunbrief-10-the-best-of-2024",
+    "https://www.anthropic.com/research/conceptual-universality-in-language-models",
+    "https://www.anthropic.com/research/confidential-inference-trusted-vms",
+    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=blog.cc-korea.com",
+    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=conversationalainews.com",
+    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=legaled.ai",
+    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=swarmsignal.net",
+    "https://www.anthropic.com/research/constitutional-classifiers",
+    "https://www.anthropic.com/research/constitutional-classifiers?utm_campaign=Data%20Points&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8noj3snVLrxdoRP5Wm9CDe-RITnQ7IROrqbPZH7WfdvFmSi44iNT7j4taW0i4gfL2Ghguw",
+    "https://www.anthropic.com/research/constitutional-classifiers?utm_source=productos-ai.com&utm_medium=blog&utm_campaign=claude-opus-4-6-jailbreak-analisis",
+    "https://www.anthropic.com/research/contextual-retrieval?ref=louisbouchard.ai",
+    "https://www.anthropic.com/research/contextual-retrieval?ref=pro-it.rocks",
+    "https://www.anthropic.com/research/contextual-retrieval?ref=swarmsignal.net",
+    "https://www.anthropic.com/research/contextual-retrieval?utm_source=agney&utm_medium=email&utm_campaign=jem-web-in-september-javascript-every-month-7676",
+    "https://www.anthropic.com/research/contextual-retrieval?utm_source=generativeaienterprise.ai&utm_medium=referral&utm_campaign=unlock-scale-with-10-best-practices",
+    "https://www.anthropic.com/research/cowork",
+    "https://www.anthropic.com/research/critical-infrastructure-defense",
+    "https://www.anthropic.com/research/crosscoder-model-diffing",
+    "https://www.anthropic.com/research/crosscoder-model-diffing?utm_source=labs.zenity.io&utm_medium=referral&utm_campaign=interpreting-jailbreaks-and-prompt-injections-with-attribution-graphs",
+    "https://www.anthropic.com/research/cyber-competitions",
+    "https://www.anthropic.com/research/cyber-toolkits",
+    "https://www.anthropic.com/research/cyber-toolkits-update",
+    "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components",
+    "https://www.anthropic.com/research/deprecation-commitments",
+    "https://www.anthropic.com/research/deprecation-commitments?utm_source=substack&utm_medium=email",
+    "https://www.anthropic.com/research/deprecation-updates-opus-3",
+    "https://www.anthropic.com/research/developing-computer-use?ref=maginative.com",
+    "https://www.anthropic.com/research/diff-tool",
+    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+    "https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations",
+    "https://www.anthropic.com/research/disempowerment-patterns",
+    "https://www.anthropic.com/research/disempowerment-patterns?ref=foundevo.com",
+    "https://www.anthropic.com/research/disempowerment-patterns?ref=implicator.ai",
+    "https://www.anthropic.com/research/disempowerment-patterns?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/distributed-representations-composition-superposition",
+    "https://www.anthropic.com/research/donating-open-source-petri",
+    "https://www.anthropic.com/research/donating-open-source-petri?utm_source=aipulsehq_newsletter",
+    "https://www.anthropic.com/research/economic-index-geography",
+    "https://www.anthropic.com/research/economic-index-geography?ref=blog.cc-korea.com",
+    "https://www.anthropic.com/research/economic-index-geography?ref=coloradoai.news",
+    "https://www.anthropic.com/research/economic-index-geography?utm_source=snaq&utm_medium=news&utm_campaign=meta-ray-ban-oculos-com-ia-no-brasil-china-proibe-compra-de-chips-da-nvidia",
+    "https://www.anthropic.com/research/economic-index-june-2026-report",
+    "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=newsletter&utm_medium=email&utm_campaign=20260630&utm_content=body_link",
+    "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=uncoverai.co&utm_medium=referral&utm_campaign=mythos-is-back-but-only-for-100-companies",
+    "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=www.aiplanetx.com&utm_medium=referral&utm_campaign=ford-ai-needed-human-expertise",
+    "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=www.joinhorizon.ai&utm_medium=referral&utm_campaign=is-ai-really-taking-all-the-jobs-anthropic-s-co-founder-just-dropped-the-numbers",
+    "https://www.anthropic.com/research/economic-index-march-2026-report",
+    "https://www.anthropic.com/research/economic-index-march-2026-report?_cldee=hEwBLCzTnEgh7ZZx7DsJW7mma3V9Fdbcxkd6Bz5YZbL14adleAoHYPvEHi2D3BtJB-fGIMa_zxLfODpQUDWFpw&recipientid=contact-8ef91ba6684cf011918e00505683b88b-055888e9fd5a4e53afe4a7ad60bbc3e6&utm_source=ClickDimensions&utm_medium=email&utm_campaign=Supply%20Chain%20Intelligence%20Brief%20-%20%28T-F%29&esid=6c953cf4-8f28-f111-919e-00505683b88b",
+    "https://www.anthropic.com/research/economic-index-march-2026-report?utm_source=the-job.beehiiv.com&utm_medium=referral&utm_campaign=fomo-on-economic-mobility",
+    "https://www.anthropic.com/research/economic-index-march-2026-report?utm_source=www.aioptimist.org&utm_medium=referral&utm_campaign=the-ai-capability-gap-just-changed-sides",
+    "https://www.anthropic.com/research/economic-index-primitives",
+    "https://www.anthropic.com/research/economic-index-survey-announcement",
+    "https://www.anthropic.com/research/economic-policy-responses",
+    "https://www.anthropic.com/research/economic-policy-responses?ref=readtangle.com",
+    "https://www.anthropic.com/research/economic-policy-responses?utm_source=ia365pro.com",
+    "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+    "https://www.anthropic.com/research/emergent-misalignment-reward-hacking?ref=swarmsignal.net",
+    "https://www.anthropic.com/research/emergent-misalignment-reward-hacking?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/emotion-concepts",
+    "https://www.anthropic.com/research/emotion-concepts-function",
+    "https://www.anthropic.com/research/emotion-concepts-function?ref=blog.rosmoscato.xyz",
+    "https://www.anthropic.com/research/emotion-concepts-function?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=why-you-should-never-trust-a-free-chatbot",
+    "https://www.anthropic.com/research/end-subset-conversations",
+    "https://www.anthropic.com/research/engineering-challenges-interpretability",
+    "https://www.anthropic.com/research/enterprise-ai-deployment",
+    "https://www.anthropic.com/research/estimating-productivity-gains",
+    "https://www.anthropic.com/research/estimating-productivity-gains?ref=wismodia.com",
+    "https://www.anthropic.com/research/estimating-productivity-gains?source=library",
+    "https://www.anthropic.com/research/estimating-productivity-gains?utm_source=chatgpt.com",
+    "https://www.anthropic.com/research/estimating-productivity-gains?utm_source=substack&utm_medium=email",
+    "https://www.anthropic.com/research/evaluating-ai-systems",
+    "https://www.anthropic.com/research/evaluating-ai-systems?utm_source=chatgpt.com",
+    "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
+    "https://www.anthropic.com/research/evaluating-feature-steering",
+    "https://www.anthropic.com/research/exploit",
+    "https://www.anthropic.com/research/exploit-evals",
+    "https://www.anthropic.com/research/exploring-model-welfare",
+    "https://www.anthropic.com/research/exploring-model-welfare?ref=cosmic.diamonds",
+    "https://www.anthropic.com/research/exploring-model-welfare?ref=skh.news",
+    "https://www.anthropic.com/research/exploring-model-welfare?utm_source=ia365pro.com",
+    "https://www.anthropic.com/research/exploring-model-welfare?utm_source=recap.aitools.inc&utm_medium=referral&utm_campaign=sam-altman-calls-ai-a-bubble-plans-trillions",
+    "https://www.anthropic.com/research/feature-based-model-internals?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/features-as-classifiers",
+    "https://www.anthropic.com/research/forecasting-rare-behaviors",
+    "https://www.anthropic.com/research/glasswing-initial-update",
+    "https://www.anthropic.com/research/glasswing-initial-update?ref=alessiopomaro.it",
+    "https://www.anthropic.com/research/glasswing-initial-update?ref=applespbevent.ru",
+    "https://www.anthropic.com/research/glasswing-initial-update?ref=josephnoelwalker.com",
+    "https://www.anthropic.com/research/glasswing-initial-update?ref=songer.pro",
+    "https://www.anthropic.com/research/glasswing-initial-update?ref=tecnoic.com",
+    "https://www.anthropic.com/research/glasswing-initial-update?utm_source=digitaliafm&utm_medium=podcast",
+    "https://www.anthropic.com/research/glasswing-initial-update?utm_source=enterpriseaiexecutive.ai&utm_medium=referral&utm_campaign=claude-mythos-uncovers-10-000-vulnerabilities",
+    "https://www.anthropic.com/research/glasswing-initial-update?utm_source=newsletter.failory.com&utm_medium=referral&utm_campaign=fintech-on-fumes",
+    "https://www.anthropic.com/research/glasswing-initial-update?utm_source=www.mondaymomentum.io&utm_medium=referral&utm_campaign=musk-exercised-the-call-option",
+    "https://www.anthropic.com/research/global-workspace",
+    "https://www.anthropic.com/research/global-workspace?",
+    "https://www.anthropic.com/research/global-workspace?fbclid=IwdGRjcAS5jEtwZG9mAWZkaWQWUKGlj27RrMzd6o2tzX1rO0LkJkGPnmV4dG4DYWVtAjExAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR5ivDd-OXEDjNcpPePt8jede7kdr52Ok66kMOicoN4enDnE07kcls74OFgcWA_aem_hd39bmXrguZFimCpeZEwVw",
+    "https://www.anthropic.com/research/global-workspace?ref=blog.lai.so",
+    "https://www.anthropic.com/research/global-workspace?ref=sidebar",
+    "https://www.anthropic.com/research/global-workspace?utm_campaign=claude-s-hidden-thinking-space&utm_medium=referral&utm_source=superhuman",
+    "https://www.anthropic.com/research/global-workspace?utm_source=futuretools.io&utm_medium=newspage",
+    "https://www.anthropic.com/research/global-workspace?utm_source=tldrai",
+    "https://www.anthropic.com/research/global-workspace?utm_source=tldrdev",
+    "https://www.anthropic.com/research/global-workspace?utm_source=www.aifire.co&utm_medium=newsletter&utm_campaign=claude-s-hidden-j-space",
+    "https://www.anthropic.com/research/global-workspace?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=claude-s-hidden-j-space",
+    "https://www.anthropic.com/research/global-workspace?utm_source=www.bigdatanewsweekly.com&utm_medium=referral&utm_campaign=anthropic-finds-a-hidden-workspace-inside-claude",
+    "https://www.anthropic.com/research/global-workspace?utm_source=www.joinhorizon.ai&utm_medium=referral&utm_campaign=how-to-catch-the-answer-even-your-best-ai-model-gets-wrong",
+    "https://www.anthropic.com/research/global-workspace?utm_source=www.theaivalley.com&utm_medium=referral&utm_campaign=anthropic-finds-ai-s-hidden-thinking-layer",
+    "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+    "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic?ref=diegoeis.com",
+    "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic?utm_source=enterpriseaiexecutive.ai&utm_medium=referral&utm_campaign=enterprise-ai-coding-case-studies",
+    "https://www.anthropic.com/research/how-australia-uses-claude",
+    "https://www.anthropic.com/research/how-canada-uses-claude",
+    "https://www.anthropic.com/research/impact-software-development",
+    "https://www.anthropic.com/research/impact-software-development?utm_source=www.theaivalley.com&utm_medium=newsletter&utm_campaign=alibaba-unveils-advanced-qwen-3-ai&_bhlid=2af687d0665831e7bb1076da04c33c71eeec0ac7",
+    "https://www.anthropic.com/research/in-context-learning-and-induction-heads",
+    "https://www.anthropic.com/research/india-brief-economic-index",
+    "https://www.anthropic.com/research/influence-functions",
+    "https://www.anthropic.com/research/interpretability-dreams",
+    "https://www.anthropic.com/research/introducing-anthropic-science",
+    "https://www.anthropic.com/research/introspection",
+    "https://www.anthropic.com/research/introspection?ref=ainews.srv2.digi-stud.io",
+    "https://www.anthropic.com/research/introspection?utm_source=substack&utm_medium=email",
+    "https://www.anthropic.com/research/introspection?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=the-new-rules-of-ai-music",
+    "https://www.anthropic.com/research/labor-market-impacts",
+    "https://www.anthropic.com/research/labor-market-impacts?ref=cz.creatorshub.info",
+    "https://www.anthropic.com/research/labor-market-impacts?ref=wismodia.com",
+    "https://www.anthropic.com/research/labor-market-impacts?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8O6GIAroawRRetWcSdmjRhypV3uJFh0MPVZd9VZYWg8Udpw3HefBVHcSgaqV6mMU9CCzyI",
+    "https://www.anthropic.com/research/labor-market-impacts?utm_source=whats-my-job-again&utm_medium=email&utm_campaign=the-human-weight-of-it",
+    "https://www.anthropic.com/research/labor-market-impacts?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=what-happens-when-ai-writing-gets-good-enough",
+    "https://www.anthropic.com/research/labor-market-impacts?utm_source=www.pe150.com&utm_medium=referral&utm_campaign=ai-productivity-and-the-solow-growth-channel-why-higher-a-matters-now",
+    "https://www.anthropic.com/research/labor-market-impacts?utm_source=xdash.ai",
+    "https://www.anthropic.com/research/language-models-mostly-know-what-they-know",
+    "https://www.anthropic.com/research/long-running-Claude",
+    "https://www.anthropic.com/research/long-running-Claude?ref=blog.ray-realms.com",
+    "https://www.anthropic.com/research/making-claude-a-chemist",
+    "https://www.anthropic.com/research/many-shot-jailbreaking",
+    "https://www.anthropic.com/research/many-shot-jailbreaking?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_20KUFsKoeFgi6834aC-LtdApxzUIbTz8_CciHzrlaGv43JleFiXbN31z39hg-x8pr5bXX",
+    "https://www.anthropic.com/research/many-shot-jailbreaking?utm_source=newsletter.ai&utm_medium=referral&utm_campaign=could-apple-s-realm-revolutionize-how-we-use-siri",
+    "https://www.anthropic.com/research/many-shot-jailbreaking?utm_source=www.aiwithvibes.com&utm_medium=referral&utm_campaign=this-jailbreak-is-super-impressive",
+    "https://www.anthropic.com/research/mapping-mind-language-model",
+    "https://www.anthropic.com/research/mapping-mind-language-model?ref=iskandr.nl",
+    "https://www.anthropic.com/research/mapping-mind-language-model?ref=josephnoelwalker.com",
+    "https://www.anthropic.com/research/mapping-mind-language-model?ref=romainlemenorel.io",
+    "https://www.anthropic.com/research/mapping-mind-language-model?ref=systemic.engineering",
+    "https://www.anthropic.com/research/mapping-mind-language-model?utm_source=bensbites&utm_medium=newsletter&utm_campaign=daily-digest-how-llms-think",
+    "https://www.anthropic.com/research/mapping-mind-language-model?utm_source=tldrsec.com&utm_medium=referral&utm_campaign=tl-dr-sec-235-threat-hunting-in-snowflake-aws-incident-query-cheatsheet-securing-ai-infra",
+    "https://www.anthropic.com/research/mapping-mind-language-model?utm_source=www.turingpost.com&utm_medium=referral&utm_campaign=fod-54-relatively-quiet-week-in-ai-is-still-full-of-storms",
+    "https://www.anthropic.com/research/mcp-adoption-2026",
+    "https://www.anthropic.com/research/measuring-agent-autonomy",
+    "https://www.anthropic.com/research/measuring-agent-autonomy?ref=codeongrass.com",
+    "https://www.anthropic.com/research/measuring-agent-autonomy?utm_source=100-school.beehiiv.com&utm_medium=referral&utm_campaign=84-of-people-have-never-used-ai",
+    "https://www.anthropic.com/research/measuring-agent-autonomy?utm_source=thesummary.ai&utm_medium=referral&utm_campaign=nano-banana-2",
+    "https://www.anthropic.com/research/measuring-ai-agent-autonomy-in-practice?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning",
+    "https://www.anthropic.com/research/measuring-model-capabilities",
+    "https://www.anthropic.com/research/measuring-model-efficiency",
+    "https://www.anthropic.com/research/measuring-model-persuasiveness",
+    "https://www.anthropic.com/research/measuring-model-persuasiveness?ref=yapaygundem.com",
+    "https://www.anthropic.com/research/measuring-model-persuasiveness?utm_source=agenthunter.io&utm_medium=news&utm_campaign=newsletter",
+    "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models",
+    "https://www.anthropic.com/research/model-specification?ref=blog.thenoblehouse.ai",
+    "https://www.anthropic.com/research/multi-agent-effectiveness",
+    "https://www.anthropic.com/research/mythos-preview",
+    "https://www.anthropic.com/research/mythos-preview-cybersecurity",
+    "https://www.anthropic.com/research/mythos-preview?hl=en-US",
+    "https://www.anthropic.com/research/mythos-preview?ref=ajianaz.dev",
+    "https://www.anthropic.com/research/mythos-preview?ref=cybersecondline.io",
+    "https://www.anthropic.com/research/mythos-preview?ref=ghost.neorex.xyz",
+    "https://www.anthropic.com/research/mythos-preview?ref=glassbeadgame.ai.kr",
+    "https://www.anthropic.com/research/mythos-preview?ref=nolongersmartest.org",
+    "https://www.anthropic.com/research/mythos-preview?ref=posthumain.com",
+    "https://www.anthropic.com/research/mythos-preview?ref=pr.ogra.ms",
+    "https://www.anthropic.com/research/mythos-preview?ref=tapestry.news",
+    "https://www.anthropic.com/research/mythos-preview?ref=thetechstreetnow.com",
+    "https://www.anthropic.com/research/mythos-preview?ref=tokenlimit.news",
+    "https://www.anthropic.com/research/mythos-preview?utm_source=tldrai",
+    "https://www.anthropic.com/research/mythos-preview?utm_source=www.cloudsecuritynewsletter.com&utm_medium=referral&utm_campaign=ai-discovers-thousands-of-zero-days-lessons-from-catching-what-edr-can-t-see",
+    "https://www.anthropic.com/research/n-days",
+    "https://www.anthropic.com/research/n-days?ref=blog.pridesec.com.br",
+    "https://www.anthropic.com/research/n-days?utm_source=www.vulnu.com&utm_medium=referral&utm_campaign=vulnerable-u-172",
+    "https://www.anthropic.com/research/natural-language-autoencoder",
+    "https://www.anthropic.com/research/natural-language-autoencoders",
+    "https://www.anthropic.com/research/natural-language-autoencoders%3C/a%3E...",
+    "https://www.anthropic.com/research/natural-language-autoencoders?ref=alessiopomaro.it",
+    "https://www.anthropic.com/research/natural-language-autoencoders?ref=cognitiverevolution.ai",
+    "https://www.anthropic.com/research/natural-language-autoencoders?ref=mpt.solutions",
+    "https://www.anthropic.com/research/natural-language-autoencoders?utm_source=aipulsehq_newsletter",
+    "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+    "https://www.anthropic.com/research/next-generation-constitutional-classifiers/?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/next-generation-constitutional-classifiers?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+    "https://www.anthropic.com/research/off-switch-dual-use",
+    "https://www.anthropic.com/research/on-the-biology-of-a-large-language-model",
+    "https://www.anthropic.com/research/open-source-circuit-tracing",
+    "https://www.anthropic.com/research/open-source-circuit-tracing?ref=news.aikoreacommunity.com",
+    "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=newsletter.thedailybite.co&utm_medium=referral&utm_campaign=deepseek-digs-deep",
+    "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=www.bigdatanewsweekly.com&utm_medium=referral&utm_campaign=deepseek-r1-update-outperforms-gemini-on-code",
+    "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=www.theaivalley.com&utm_medium=referral&utm_campaign=apple-research-questions-ai-reasoning-models",
+    "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=meta-s-ai-advertising-takeover",
+    "https://www.anthropic.com/research/persona-selection-model",
+    "https://www.anthropic.com/research/persona-selection-model?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/persona-vectors",
+    "https://www.anthropic.com/research/persona-vectors?utm_source=aibreakfast.beehiiv.com&utm_medium=referral&utm_campaign=anthropic-s-ai-vaccines-scaling-gamble-and-why-it-shut-openai-out",
+    "https://www.anthropic.com/research/petri-open-source-auditing",
+    "https://www.anthropic.com/research/petri-open-source-auditing?ref=blog.cc-korea.com",
+    "https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models",
+    "https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream",
+    "https://www.anthropic.com/research/probes-catch-sleeper-agents",
+    "https://www.anthropic.com/research/project-deal?ref=deconstructingbabel.com",
+    "https://www.anthropic.com/research/project-fetch-phase-two",
+    "https://www.anthropic.com/research/project-fetch-robot-dog",
+    "https://www.anthropic.com/research/project-pilot",
+    "https://www.anthropic.com/research/project-vend",
+    "https://www.anthropic.com/research/project-vend-1",
+    "https://www.anthropic.com/research/project-vend-1?ref=blog.mozilla.ai",
+    "https://www.anthropic.com/research/project-vend-1?utm_source=agenthunter.io&utm_medium=news&utm_campaign=newsletter",
+    "https://www.anthropic.com/research/project-vend-1?utm_source=devthink.ai&utm_medium=referral&utm_campaign=mastering-reasoning-llms-a-developer-s-guide-to-advanced-ai-applications",
+    "https://www.anthropic.com/research/project-vend-1?utm_source=storythings-newsletter&utm_medium=referral&utm_campaign=30-minutes-with-a-stranger-can-claude-run-a-small-shop-and-good-taste-is-more-important-than-ever",
+    "https://www.anthropic.com/research/project-vend-1?utm_source=www.aipeanuts.com&utm_medium=referral&utm_campaign=meta-s-superintelligenz-offensive-der-teure-kampf-gegen-openai",
+    "https://www.anthropic.com/research/project-vend-1?utm_source=www.joinhorizon.ai&utm_medium=referral&utm_campaign=meta-s-recruiting-blitz-claims-four-more-openai-researchers",
+    "https://www.anthropic.com/research/project-vend-1?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=zuck-s-ai-secret-list&_bhlid=60bf8118bf00821bbb443c04f708baf547440e6f",
+    "https://www.anthropic.com/research/project-vend-1?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=zuck-s-ai-secret-list",
+    "https://www.anthropic.com/research/project-vend-2",
+    "https://www.anthropic.com/research/prompt-injection-defenses",
+    "https://www.anthropic.com/research/prompt-injection-defenses?ref=swarmsignal.net",
+    "https://www.anthropic.com/research/property-based-testing",
+    "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning",
+    "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+    "https://www.anthropic.com/research/reasoning-models-dont-say-think?s=08",
+    "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9lCOMYhReQ7DEah0gBQleV6i6ku_Dm3L4v0cHo7FUf9FBk13tUKBSzetXgxlpiy-UaB9rw",
+    "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_source=beginnersinai.beehiiv.com&utm_medium=newsletter&utm_campaign=anthropic-finds-ai-isn-t-faithful-and-still-cannot-be-trusted-fully&_bhlid=cd66a5fdce8f0c61b222a8f8632967715f56671a",
+    "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_source=devthink.ai&utm_medium=newsletter&utm_campaign=extending-llms-with-mcp-servers",
+    "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_source=futuretools.io&utm_medium=newspage",
+    "https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned",
+    "https://www.anthropic.com/research/reward-hacking",
+    "https://www.anthropic.com/research/reward-tampering",
+    "https://www.anthropic.com/research/reward-tampering?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/sabotage-evaluations",
+    "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data",
+    "https://www.anthropic.com/research/shade-arena-sabotage-monitoring",
+    "https://www.anthropic.com/research/signs-of-self-knowledge-in-llms",
+    "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+    "https://www.anthropic.com/research/small%C2%ADsamples%C2%ADpoison",
+    "https://www.anthropic.com/research/small-samples-poison",
+    "https://www.anthropic.com/research/small-samples-poison?amp=",
+    "https://www.anthropic.com/research/small-samples-poison?ref=birchtree.me",
+    "https://www.anthropic.com/research/small-samples-poison?ref=felienne.nl",
+    "https://www.anthropic.com/research/small-samples-poison?utm_source=futurproche&utm_medium=newsletter&utm_campaign=le-pacte-de-moloch",
+    "https://www.anthropic.com/research/small-samples-poison?utm_source=perplexity",
+    "https://www.anthropic.com/research/smart-contracts",
+    "https://www.anthropic.com/research/smart-contracts?ref=cognitiverevolution.ai",
+    "https://www.anthropic.com/research/smart-contracts?ref=platformer.news",
+    "https://www.anthropic.com/research/smart-contracts?utm_source=deeptechnewsletter.com&utm_medium=newsletter&utm_campaign=deept-tech-newsletter",
+    "https://www.anthropic.com/research/softmax-linear-units",
+    "https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai",
+    "https://www.anthropic.com/research/statistical-approach-to-model-evals",
+    "https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions",
+    "https://www.anthropic.com/research/subliminal-learning?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/superposition-memorization-and-double-descent",
+    "https://www.anthropic.com/research/swe-bench-sonnet",
+    "https://www.anthropic.com/research/sycophancy-in-llms",
+    "https://www.anthropic.com/research/teaching-claude-why",
+    "https://www.anthropic.com/research/teaching-claude-why?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=the-peer-review-system-is-breaking-can-ai-fix-it",
+    "https://www.anthropic.com/research/teaching-claude-why?utm_source=www.techbuzz.ai&utm_medium=referral&utm_campaign=silicon-valley-s-china-damage-control-tour",
+    "https://www.anthropic.com/research/team/alignment",
+    "https://www.anthropic.com/research/team/economic-research",
+    "https://www.anthropic.com/research/team/frontier-red-team",
+    "https://www.anthropic.com/research/team/interpretability",
+    "https://www.anthropic.com/research/team/societal-impacts",
+    "https://www.anthropic.com/research/team/societal-impacts?ref=blog.cc-korea.com",
+    "https://www.anthropic.com/research/the-anthropic-economic-index?ref=ghost.neorex.xyz",
+    "https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models",
+    "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models",
+    "https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+    "https://www.anthropic.com/research/towards-understanding-sycophancy-in-ai-systems?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models",
+    "https://www.anthropic.com/research/toy-models-of-superposition",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=cognitiverevolution.ai",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=dawid.ai",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=en.thedavestack.com",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=labnotes.org",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=ryanmcdonough.co.uk",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=torment-nexus.mathewingram.com",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?utm_source=6thwave-ai-newsletter.beehiiv.com&utm_medium=referral&utm_campaign=openai-unveils-new-image-generator-with-controversial-content-changes",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?utm_source=curvelabs.org",
+    "https://www.anthropic.com/research/tracing-thoughts-language-model?utm_source=devthink.ai&utm_medium=newsletter&utm_campaign=enhancing-document-search-with-visual-rag",
+    "https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback",
+    "https://www.anthropic.com/research/transformer-circuits",
+    "https://www.anthropic.com/research/trustworthy-agents",
+    "https://www.anthropic.com/research/trustworthy-agents?utm_source=chatgpt.com",
+    "https://www.anthropic.com/research/understanding-sycophancy",
+    "https://www.anthropic.com/research/values-wild",
+    "https://www.anthropic.com/research/values-wild?",
+    "https://www.anthropic.com/research/values-wild?utm_source=news.workwithai.com&utm_medium=referral&utm_campaign=anthropic-s-new-study-reveals-claude-s-morals-and-ethics",
+    "https://www.anthropic.com/research/values-wild?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=anthropic-maps-ai-s-moral-compass&_bhlid=1515b6c2b410c180d00acfb4ec6117d9bd52392a",
+    "https://www.anthropic.com/research/vibe-physics",
+    "https://www.anthropic.com/research/vibe-physics?ref=blog.pridesec.com.br",
+    "https://www.anthropic.com/research/visible-extended-thinking?ref=brunoscheufler.com",
+    "https://www.anthropic.com/research/visible-extended-thinking?utm_source=aitangle.com&utm_medium=referral&utm_campaign=anthropic-releases-a-new-code-maestro-sonnet-model-dev-tool-to-boot",
+    "https://www.anthropic.com/research/visible-extended-thinking?utm_source=previouslyontech.com&utm_medium=referral&utm_campaign=sparking-creativity-with-ai-episode-6",
+    "https://www.anthropic.com/research/when-ai-builds-itself?ref=jeroenteunisse.nl",
+    "https://www.anthropic.com/research/zero-days",
+    "https://www.anthropic.com/research/zero-days?ref=31337infosec.com",
+    "https://www.anthropic.com/research/zero-days?utm_source=productos-ai.com&utm_medium=blog&utm_campaign=claude-opus-4-6-jailbreak-analisis",
     "https://www.image-net.org/static_files/papers/ImageNet_2010.pdf?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--4HuGHnUVkVru3wLgAlnAOWa7cwfy1WYgqS16TakjYTqk0mS8aOQxpr7PQoaI8aGTx9hte",
     "https://www.tensorflow.org/addons/tutorials/average_optimizers_callback?hl=ja",
     "https://www.tensorflow.org/addons/tutorials/average_optimizers_callback?hl=ko",
@@ -203070,7 +203495,2175 @@
         "source": "medium.com",
         "discovered_at": "2026-08-05T08:35:13.382676"
       }
-    ]
+    ],
+    "anthropic.com": [
+      {
+        "url": "https://www.anthropic.com/research/81k-economics",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874883"
+      },
+      {
+        "url": "https://www.anthropic.com/research/2028-ai-leadership",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874920"
+      },
+      {
+        "url": "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874927"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agents-in-biology",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874935"
+      },
+      {
+        "url": "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874943"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-fluency-index",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874950"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874956"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874966"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874974"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874981"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874988"
+      },
+      {
+        "url": "https://www.anthropic.com/research/attack-navigator",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.874996"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875003"
+      },
+      {
+        "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875011"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-interviewer",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875016"
+      },
+      {
+        "url": "https://www.anthropic.com/research/assistant-axis",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875023"
+      },
+      {
+        "url": "https://www.anthropic.com/research/auditing-hidden-objectives",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875029"
+      },
+      {
+        "url": "https://www.anthropic.com/research/biorisk",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875037"
+      },
+      {
+        "url": "https://www.anthropic.com/research/bloom",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875043"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875050"
+      },
+      {
+        "url": "https://www.anthropic.com/research/circuits-updates-april-2024",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875057"
+      },
+      {
+        "url": "https://www.anthropic.com/research/circuits-updates-august-2024",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875064"
+      },
+      {
+        "url": "https://www.anthropic.com/research/circuits-updates-july-2024",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875071"
+      },
+      {
+        "url": "https://www.anthropic.com/research/circuits-updates-sept-2024",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875077"
+      },
+      {
+        "url": "https://www.anthropic.com/research/circuits-updates-may-2023",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875088"
+      },
+      {
+        "url": "https://www.anthropic.com/research/circuits-updates-june-2024",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875095"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-4-cyber",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875101"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/building-effective-agents",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875107"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-code-expertise",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875112"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-personal-guidance",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875117"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-character",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875123"
+      },
+      {
+        "url": "https://www.anthropic.com/research/clio",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875128"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-values-models-languages",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875134"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-plays-robotics",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875140"
+      },
+      {
+        "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875145"
+      },
+      {
+        "url": "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875151"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875157"
+      },
+      {
+        "url": "https://www.anthropic.com/research/confidential-inference-trusted-vms",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875163"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-classifiers",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875168"
+      },
+      {
+        "url": "https://www.anthropic.com/research/critical-infrastructure-defense",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875174"
+      },
+      {
+        "url": "https://www.anthropic.com/research/crosscoder-model-diffing",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875179"
+      },
+      {
+        "url": "https://www.anthropic.com/research/cyber-toolkits",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875185"
+      },
+      {
+        "url": "https://www.anthropic.com/research/cyber-toolkits-update",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875192"
+      },
+      {
+        "url": "https://www.anthropic.com/research/cyber-competitions",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875197"
+      },
+      {
+        "url": "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875203"
+      },
+      {
+        "url": "https://www.anthropic.com/research/deprecation-commitments",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875208"
+      },
+      {
+        "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875213"
+      },
+      {
+        "url": "https://www.anthropic.com/research/diff-tool",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875218"
+      },
+      {
+        "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875224"
+      },
+      {
+        "url": "https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875230"
+      },
+      {
+        "url": "https://www.anthropic.com/research/distributed-representations-composition-superposition",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875236"
+      },
+      {
+        "url": "https://www.anthropic.com/research/disempowerment-patterns",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875241"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-policy-responses",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875246"
+      },
+      {
+        "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875255"
+      },
+      {
+        "url": "https://www.anthropic.com/research/emotion-concepts-function",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875260"
+      },
+      {
+        "url": "https://www.anthropic.com/research/end-subset-conversations",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875266"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-geography",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875272"
+      },
+      {
+        "url": "https://www.anthropic.com/research/donating-open-source-petri",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875278"
+      },
+      {
+        "url": "https://www.anthropic.com/research/engineering-challenges-interpretability",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875284"
+      },
+      {
+        "url": "https://www.anthropic.com/research/estimating-productivity-gains",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875290"
+      },
+      {
+        "url": "https://www.anthropic.com/research/evaluating-ai-systems",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875297"
+      },
+      {
+        "url": "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875303"
+      },
+      {
+        "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875309"
+      },
+      {
+        "url": "https://www.anthropic.com/research/evaluating-feature-steering",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875315"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploit",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875322"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875331"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploit-evals",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875337"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875344"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploring-model-welfare",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875352"
+      },
+      {
+        "url": "https://www.anthropic.com/research/features-as-classifiers",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875359"
+      },
+      {
+        "url": "https://www.anthropic.com/research/forecasting-rare-behaviors",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875365"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875370"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875377"
+      },
+      {
+        "url": "https://www.anthropic.com/research/how-australia-uses-claude",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875383"
+      },
+      {
+        "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875389"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-primitives",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875395"
+      },
+      {
+        "url": "https://www.anthropic.com/research/how-canada-uses-claude",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875401"
+      },
+      {
+        "url": "https://www.anthropic.com/research/impact-software-development",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875412"
+      },
+      {
+        "url": "https://www.anthropic.com/research/in-context-learning-and-induction-heads",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875417"
+      },
+      {
+        "url": "https://www.anthropic.com/research/india-brief-economic-index",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875425"
+      },
+      {
+        "url": "https://www.anthropic.com/research/influence-functions",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875432"
+      },
+      {
+        "url": "https://www.anthropic.com/research/introducing-anthropic-science",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875440"
+      },
+      {
+        "url": "https://www.anthropic.com/research/interpretability-dreams",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875446"
+      },
+      {
+        "url": "https://www.anthropic.com/research/introspection",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875452"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875458"
+      },
+      {
+        "url": "https://www.anthropic.com/research/language-models-mostly-know-what-they-know",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875465"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875473"
+      },
+      {
+        "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875479"
+      },
+      {
+        "url": "https://www.anthropic.com/research/long-running-Claude",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875487"
+      },
+      {
+        "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875494"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875500"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875508"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875515"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875524"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875531"
+      },
+      {
+        "url": "https://www.anthropic.com/research/n-days",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875537"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875543"
+      },
+      {
+        "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875549"
+      },
+      {
+        "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875555"
+      },
+      {
+        "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875561"
+      },
+      {
+        "url": "https://www.anthropic.com/research/off-switch-dual-use",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875568"
+      },
+      {
+        "url": "https://www.anthropic.com/research/open-source-circuit-tracing",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875575"
+      },
+      {
+        "url": "https://www.anthropic.com/research/persona-selection-model",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875583"
+      },
+      {
+        "url": "https://www.anthropic.com/research/persona-vectors",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875590"
+      },
+      {
+        "url": "https://www.anthropic.com/research/petri-open-source-auditing",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875600"
+      },
+      {
+        "url": "https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875607"
+      },
+      {
+        "url": "https://www.anthropic.com/research/probes-catch-sleeper-agents",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875614"
+      },
+      {
+        "url": "https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875620"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875626"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-fetch-robot-dog",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875635"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-pilot",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875642"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875648"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-2",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875655"
+      },
+      {
+        "url": "https://www.anthropic.com/research/prompt-injection-defenses",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875662"
+      },
+      {
+        "url": "https://www.anthropic.com/research/property-based-testing",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875671"
+      },
+      {
+        "url": "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875679"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875685"
+      },
+      {
+        "url": "https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875692"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reward-tampering",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875698"
+      },
+      {
+        "url": "https://www.anthropic.com/research/sabotage-evaluations",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875705"
+      },
+      {
+        "url": "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875713"
+      },
+      {
+        "url": "https://www.anthropic.com/research/shade-arena-sabotage-monitoring",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875719"
+      },
+      {
+        "url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875725"
+      },
+      {
+        "url": "https://www.anthropic.com/research/small-samples-poison",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875732"
+      },
+      {
+        "url": "https://www.anthropic.com/research/smart-contracts",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875738"
+      },
+      {
+        "url": "https://www.anthropic.com/research/softmax-linear-units",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875746"
+      },
+      {
+        "url": "https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875754"
+      },
+      {
+        "url": "https://www.anthropic.com/research/statistical-approach-to-model-evals",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875760"
+      },
+      {
+        "url": "https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875767"
+      },
+      {
+        "url": "https://www.anthropic.com/research/swe-bench-sonnet",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875777"
+      },
+      {
+        "url": "https://www.anthropic.com/research/superposition-memorization-and-double-descent",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875783"
+      },
+      {
+        "url": "https://www.anthropic.com/research/team/alignment",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875791"
+      },
+      {
+        "url": "https://www.anthropic.com/research/teaching-claude-why",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875797"
+      },
+      {
+        "url": "https://www.anthropic.com/research/team/economic-research",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875803"
+      },
+      {
+        "url": "https://www.anthropic.com/research/team/frontier-red-team",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875809"
+      },
+      {
+        "url": "https://www.anthropic.com/research/team/interpretability",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875816"
+      },
+      {
+        "url": "https://www.anthropic.com/research/team/societal-impacts",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875822"
+      },
+      {
+        "url": "https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875830"
+      },
+      {
+        "url": "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875836"
+      },
+      {
+        "url": "https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875842"
+      },
+      {
+        "url": "https://www.anthropic.com/research/toy-models-of-superposition",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875848"
+      },
+      {
+        "url": "https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875853"
+      },
+      {
+        "url": "https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875861"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875869"
+      },
+      {
+        "url": "https://www.anthropic.com/research/transformer-circuits",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875877"
+      },
+      {
+        "url": "https://www.anthropic.com/research/trustworthy-agents",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875886"
+      },
+      {
+        "url": "https://www.anthropic.com/research/values-wild",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875892"
+      },
+      {
+        "url": "https://www.anthropic.com/research/",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875898"
+      },
+      {
+        "url": "https://www.anthropic.com/research/vibe-physics",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875905"
+      },
+      {
+        "url": "https://www.anthropic.com/research/zero-days",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875913"
+      },
+      {
+        "url": "https://www.anthropic.com/research/2026-agentic-coding-trends",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875919"
+      },
+      {
+        "url": "https://www.anthropic.com/research/2028-ai-leadership.",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875926"
+      },
+      {
+        "url": "https://www.anthropic.com/research/2028-ai-leadership?ref=steampunkai.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875934"
+      },
+      {
+        "url": "https://www.anthropic.com/research/2028-ai-leadership?utm_source=enterpriseaiexecutive.ai&utm_medium=referral&utm_campaign=microsoft-s-6-step-agentic-transformation-playbook",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875942"
+      },
+      {
+        "url": "https://www.anthropic.com/research/81k-economics?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=why-you-should-never-trust-a-free-chatbot",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875948"
+      },
+      {
+        "url": "https://www.anthropic.com/research/accessibility",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875955"
+      },
+      {
+        "url": "https://www.anthropic.com/research/81k-economics?ref=3min.dk",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875963"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?ref=airevolution.poltextlab.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875971"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?ref=deconstructingbabel.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875981"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?ref=frenchtechjournal.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875988"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?ref=implicator.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.875995"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?ref=themetaslave.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876002"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?ref=opulentia.vc",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876010"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?ref=theopeneyedman.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876017"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=big-tech-s-ai-shopping-spree",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876027"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?utm_source=convertkit&utm_medium=email&utm_campaign=caelanhuntress",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876033"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agentic-misalignment?utm_source=tldrai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876039"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-assistance-coding-skills?ref=techstories.co",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876046"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-assistance-coding-skills?e45d281a_page=1&utm_cta=website-be-trending-cloud-marketing-dummies-ebk&mkt_tok=aw.ds",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876053"
+      },
+      {
+        "url": "https://www.anthropic.com/research/2028-ai-leadership",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876061"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-fluency-index?ref=techtech.club",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876067"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876076"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-fluency-index",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876082"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking.",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876093"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-evals?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876100"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking?ref=deconstructingbabel.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876108"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking?ref=swarmsignal.net",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876115"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking?ref=steampunkai.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876124"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=chatgpt-now-available-for-call",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876131"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking?utm_source=www.smarterwithai.news&utm_medium=referral&utm_campaign=sunbrief-8-google-challanges-openai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876137"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876146"
+      },
+      {
+        "url": "https://www.anthropic.com/research/alignment-faking?utm_source=hackernewsletter&utm_medium=email&utm_term=watching",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876153"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?_sc=NTIyMjE5NiMyMTI1&utm_campaign=Murmur_Paatch++15+JANVIER+2026&utm_medium=email&utm_source=sendinblue",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876162"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=ads-are-coming",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876169"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=100-school.beehiiv.com&utm_medium=referral&utm_campaign=i-was-wrong-ai-is-eating-the-complex-work-first",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876175"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=thedeepview&utm_medium=newsletter&utm_campaign=openai-leads-smb-as-anthropic-wins-enterprise",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876181"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=www.productreport.ai&utm_medium=newsletter&utm_campaign=quick-news-on-a-tuesday&_bhlid=c482cbb1ebee1ff6f947c50d3694b5b449f694c1",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876190"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876197"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=google-s-googling-silently",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876204"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=gradientflow&utm_medium=newsletter",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876212"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=superhuman&utm_medium=referral&utm_campaign=the-ai-soul-computer",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876219"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report?utm_source=fullstackHR",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876227"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-public-record",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876235"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-institute-agenda?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=claude-mythos-breaks-the-ruler",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876244"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropics-responsible-scaling-policy?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876252"
+      },
+      {
+        "url": "https://www.anthropic.com/research/assistant-axis?utm_source=www.smarterwithai.news&utm_medium=referral&utm_campaign=wedvault-64-claude-expands-ai-with-direct-health-data-access",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876259"
+      },
+      {
+        "url": "https://www.anthropic.com/research/attack-navigator?utm_source=ainews247.org&utm_medium=referral&utm_campaign=ai_news_stories&utm_content=story_story_detail_id_216480",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876265"
+      },
+      {
+        "url": "https://www.anthropic.com/research/au",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876273"
+      },
+      {
+        "url": "https://www.anthropic.com/research/attack-navigator?utm_source=tldrsec.com&utm_medium=referral&utm_campaign=tl-dr-sec-332-i-ve-joined-openai-fwd-cloudsec-aws-well-architected-supply-chain-security",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876282"
+      },
+      {
+        "url": "https://www.anthropic.com/research/auditing-hidden-objectives/?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876291"
+      },
+      {
+        "url": "https://www.anthropic.com/research/auditing-hidden-objectives?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876296"
+      },
+      {
+        "url": "https://www.anthropic.com/research/auditing-language-models-for-hidden-objectives?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876304"
+      },
+      {
+        "url": "https://www.anthropic.com/research/automated-alignment-auditing?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876309"
+      },
+      {
+        "url": "https://www.anthropic.com/research/bloom?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=gpt-s-spotify-wrapped-for-ai-obsessed",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876316"
+      },
+      {
+        "url": "https://www.anthropic.com/research/bloom?utm_source=www.ainauten.com&utm_medium=referral&utm_campaign=weekly-ai-news-was-verpasst",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876322"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-ai-cyber-defenders?ref=theleftshift.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876328"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-ai-cyber-defenders?utm_source=www.blacklynxbrief.com&utm_medium=referral&utm_campaign=judgment-day-for-real-this-time",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876334"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?ref=blog.getzep.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876339"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?ref=copenhagen-review-of-communication.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876346"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?ref=llm101.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876353"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?ref=swarmsignal.net",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876361"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?ref=louisbouchard.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876367"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?utm_source=thesummary.ai&utm_medium=referral&utm_campaign=deepseek-redefines-open-ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876373"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?utm_source=makers-make.beehiiv.com&utm_medium=referral&utm_campaign=saasykit-birthday-sale-last-chance-overcoming-ai-anxiety-my-take-on-vibe-coding-vs-agentic-engineering-the-death-of-saas-has-been-greatly-exaggerated-more",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876381"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agents?utm_source=aiwithallie.beehiiv.com&utm_medium=referral&utm_campaign=my-entire-2024-ai-recap-take-a-deep-breath-before-reading",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876388"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-agentsWhy",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876395"
+      },
+      {
+        "url": "https://www.anthropic.com/research/building-effective-ai-agents?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876401"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-3-5-sonnet",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876408"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-3-model-card",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876416"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-4-model-card",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876424"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-character?ref=danielcorin.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876430"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-character?utm_source=decodemail&utm_medium=referral&utm_campaign=ai-gave-me-a-husband",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876436"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-code",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876444"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-opus-4-6",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876453"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-code-expertise?ref=soragui.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876459"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-code-expertise?utm_source=www.alertaia.com&utm_medium=referral&utm_campaign=dentro-del-bloqueo-que-mantiene-a-mythos-fuera-de-linea",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876466"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-opus-47-technical-brief",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876474"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-personal-guidance?utm_source=romaindelfosse&utm_medium=veille&utm_campaign=veille-cdo",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876482"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-usage-survey",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876488"
+      },
+      {
+        "url": "https://www.anthropic.com/research/clio?ref=blog.cc-korea.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876496"
+      },
+      {
+        "url": "https://www.anthropic.com/research/clio?ref=platformer.news",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876503"
+      },
+      {
+        "url": "https://www.anthropic.com/research/clio?utm_source=modernchaos.heytwist.com&utm_medium=referral&utm_campaign=mc-65-what-ai-early-adopters-are-doing",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876509"
+      },
+      {
+        "url": "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input?ref=blog.cc-korea.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876516"
+      },
+      {
+        "url": "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input?utm_source=www.smarterwithai.news&utm_medium=referral&utm_campaign=sunbrief-10-the-best-of-2024",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876525"
+      },
+      {
+        "url": "https://www.anthropic.com/research/conceptual-universality-in-language-models",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876530"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=blog.cc-korea.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876537"
+      },
+      {
+        "url": "https://www.anthropic.com/research/clio?ref=platformer.news",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876543"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=conversationalainews.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876551"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=legaled.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876558"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback?ref=swarmsignal.net",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876564"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-classifiers?utm_campaign=Data%20Points&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8noj3snVLrxdoRP5Wm9CDe-RITnQ7IROrqbPZH7WfdvFmSi44iNT7j4taW0i4gfL2Ghguw",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876572"
+      },
+      {
+        "url": "https://www.anthropic.com/research/contextual-retrieval?ref=louisbouchard.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876578"
+      },
+      {
+        "url": "https://www.anthropic.com/research/constitutional-classifiers?utm_source=productos-ai.com&utm_medium=blog&utm_campaign=claude-opus-4-6-jailbreak-analisis",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876586"
+      },
+      {
+        "url": "https://www.anthropic.com/research/contextual-retrieval?ref=swarmsignal.net",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876591"
+      },
+      {
+        "url": "https://www.anthropic.com/research/contextual-retrieval?ref=pro-it.rocks",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876596"
+      },
+      {
+        "url": "https://www.anthropic.com/research/contextual-retrieval?utm_source=agney&utm_medium=email&utm_campaign=jem-web-in-september-javascript-every-month-7676",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876603"
+      },
+      {
+        "url": "https://www.anthropic.com/research/contextual-retrieval?utm_source=generativeaienterprise.ai&utm_medium=referral&utm_campaign=unlock-scale-with-10-best-practices",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876609"
+      },
+      {
+        "url": "https://www.anthropic.com/research/cowork",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876616"
+      },
+      {
+        "url": "https://www.anthropic.com/research/crosscoder-model-diffing?utm_source=labs.zenity.io&utm_medium=referral&utm_campaign=interpreting-jailbreaks-and-prompt-injections-with-attribution-graphs",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876622"
+      },
+      {
+        "url": "https://www.anthropic.com/research/deprecation-commitments?utm_source=substack&utm_medium=email",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876629"
+      },
+      {
+        "url": "https://www.anthropic.com/research/developing-computer-use?ref=maginative.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876636"
+      },
+      {
+        "url": "https://www.anthropic.com/research/disempowerment-patterns?ref=foundevo.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876641"
+      },
+      {
+        "url": "https://www.anthropic.com/research/disempowerment-patterns?ref=implicator.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876646"
+      },
+      {
+        "url": "https://www.anthropic.com/research/disempowerment-patterns?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876652"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-geography?ref=blog.cc-korea.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876658"
+      },
+      {
+        "url": "https://www.anthropic.com/research/donating-open-source-petri?utm_source=aipulsehq_newsletter",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876666"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-geography?ref=coloradoai.news",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876674"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-geography?utm_source=snaq&utm_medium=news&utm_campaign=meta-ray-ban-oculos-com-ia-no-brasil-china-proibe-compra-de-chips-da-nvidia",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876682"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=newsletter&utm_medium=email&utm_campaign=20260630&utm_content=body_link",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876690"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=www.aiplanetx.com&utm_medium=referral&utm_campaign=ford-ai-needed-human-expertise",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876698"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=www.joinhorizon.ai&utm_medium=referral&utm_campaign=is-ai-really-taking-all-the-jobs-anthropic-s-co-founder-just-dropped-the-numbers",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876704"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-june-2026-report?utm_source=uncoverai.co&utm_medium=referral&utm_campaign=mythos-is-back-but-only-for-100-companies",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876710"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-march-2026-report?_cldee=hEwBLCzTnEgh7ZZx7DsJW7mma3V9Fdbcxkd6Bz5YZbL14adleAoHYPvEHi2D3BtJB-fGIMa_zxLfODpQUDWFpw&recipientid=contact-8ef91ba6684cf011918e00505683b88b-055888e9fd5a4e53afe4a7ad60bbc3e6&utm_source=ClickDimensions&utm_medium=email&utm_campaign=Supply%20Chain%20Intelligence%20Brief%20-%20%28T-F%29&esid=6c953cf4-8f28-f111-919e-00505683b88b",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876717"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-march-2026-report?utm_source=the-job.beehiiv.com&utm_medium=referral&utm_campaign=fomo-on-economic-mobility",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876724"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-march-2026-report?utm_source=www.aioptimist.org&utm_medium=referral&utm_campaign=the-ai-capability-gap-just-changed-sides",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876730"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-policy-responses?ref=readtangle.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876734"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-policy-responses?utm_source=ia365pro.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876740"
+      },
+      {
+        "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking?ref=swarmsignal.net",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876745"
+      },
+      {
+        "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876750"
+      },
+      {
+        "url": "https://www.anthropic.com/research/emotion-concepts",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876756"
+      },
+      {
+        "url": "https://www.anthropic.com/research/emotion-concepts-function?ref=blog.rosmoscato.xyz",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876761"
+      },
+      {
+        "url": "https://www.anthropic.com/research/emotion-concepts-function?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=why-you-should-never-trust-a-free-chatbot",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876769"
+      },
+      {
+        "url": "https://www.anthropic.com/research/enterprise-ai-deployment",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876776"
+      },
+      {
+        "url": "https://www.anthropic.com/research/estimating-productivity-gains?ref=wismodia.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876784"
+      },
+      {
+        "url": "https://www.anthropic.com/research/estimating-productivity-gains?source=library",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876792"
+      },
+      {
+        "url": "https://www.anthropic.com/research/estimating-productivity-gains?utm_source=substack&utm_medium=email",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876801"
+      },
+      {
+        "url": "https://www.anthropic.com/research/evaluating-ai-systems?utm_source=chatgpt.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876807"
+      },
+      {
+        "url": "https://www.anthropic.com/research/estimating-productivity-gains?utm_source=chatgpt.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876813"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploring-model-welfare?ref=cosmic.diamonds",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876820"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploring-model-welfare?ref=skh.news",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876827"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploring-model-welfare?utm_source=recap.aitools.inc&utm_medium=referral&utm_campaign=sam-altman-calls-ai-a-bubble-plans-trillions",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876836"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploring-model-welfare?utm_source=ia365pro.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876843"
+      },
+      {
+        "url": "https://www.anthropic.com/research/feature-based-model-internals?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876849"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?ref=alessiopomaro.it",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876857"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?ref=josephnoelwalker.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876864"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?ref=applespbevent.ru",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876870"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?ref=songer.pro",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876874"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?ref=tecnoic.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876879"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876885"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?utm_source=enterpriseaiexecutive.ai&utm_medium=referral&utm_campaign=claude-mythos-uncovers-10-000-vulnerabilities",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876892"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?utm_source=newsletter.failory.com&utm_medium=referral&utm_campaign=fintech-on-fumes",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876898"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?utm_source=www.mondaymomentum.io&utm_medium=referral&utm_campaign=musk-exercised-the-call-option",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876904"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876912"
+      },
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update?utm_source=digitaliafm&utm_medium=podcast",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876921"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?fbclid=IwdGRjcAS5jEtwZG9mAWZkaWQWUKGlj27RrMzd6o2tzX1rO0LkJkGPnmV4dG4DYWVtAjExAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR5ivDd-OXEDjNcpPePt8jede7kdr52Ok66kMOicoN4enDnE07kcls74OFgcWA_aem_hd39bmXrguZFimCpeZEwVw",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876927"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?ref=blog.lai.so",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876933"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?ref=sidebar",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876940"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=www.bigdatanewsweekly.com&utm_medium=referral&utm_campaign=anthropic-finds-a-hidden-workspace-inside-claude",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876949"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=www.aifire.co&utm_medium=newsletter&utm_campaign=claude-s-hidden-j-space",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876956"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=www.theaivalley.com&utm_medium=referral&utm_campaign=anthropic-finds-ai-s-hidden-thinking-layer",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876962"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=www.aifire.co&utm_medium=referral&utm_campaign=claude-s-hidden-j-space",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876970"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876977"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_campaign=claude-s-hidden-thinking-space&utm_medium=referral&utm_source=superhuman",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876982"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=futuretools.io&utm_medium=newspage",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876990"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=www.joinhorizon.ai&utm_medium=referral&utm_campaign=how-to-catch-the-answer-even-your-best-ai-model-gets-wrong",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.876998"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=tldrai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877004"
+      },
+      {
+        "url": "https://www.anthropic.com/research/global-workspace?utm_source=tldrdev",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877011"
+      },
+      {
+        "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic?ref=diegoeis.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877017"
+      },
+      {
+        "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic?utm_source=enterpriseaiexecutive.ai&utm_medium=referral&utm_campaign=enterprise-ai-coding-case-studies",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877024"
+      },
+      {
+        "url": "https://www.anthropic.com/research/impact-software-development?utm_source=www.theaivalley.com&utm_medium=newsletter&utm_campaign=alibaba-unveils-advanced-qwen-3-ai&_bhlid=2af687d0665831e7bb1076da04c33c71eeec0ac7",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877032"
+      },
+      {
+        "url": "https://www.anthropic.com/research/introspection?ref=ainews.srv2.digi-stud.io",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877038"
+      },
+      {
+        "url": "https://www.anthropic.com/research/introspection?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=the-new-rules-of-ai-music",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877045"
+      },
+      {
+        "url": "https://www.anthropic.com/research/introspection?utm_source=substack&utm_medium=email",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877051"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8O6GIAroawRRetWcSdmjRhypV3uJFh0MPVZd9VZYWg8Udpw3HefBVHcSgaqV6mMU9CCzyI",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877061"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts?ref=cz.creatorshub.info",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877068"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts?ref=wismodia.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877073"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts?utm_source=www.pe150.com&utm_medium=referral&utm_campaign=ai-productivity-and-the-solow-growth-channel-why-higher-a-matters-now",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877080"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts?utm_source=whats-my-job-again&utm_medium=email&utm_campaign=the-human-weight-of-it",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877085"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=what-happens-when-ai-writing-gets-good-enough",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877093"
+      },
+      {
+        "url": "https://www.anthropic.com/research/labor-market-impacts?utm_source=xdash.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877100"
+      },
+      {
+        "url": "https://www.anthropic.com/research/long-running-Claude?ref=blog.ray-realms.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877108"
+      },
+      {
+        "url": "https://www.anthropic.com/research/many-shot-jailbreaking?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_20KUFsKoeFgi6834aC-LtdApxzUIbTz8_CciHzrlaGv43JleFiXbN31z39hg-x8pr5bXX",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877115"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model?ref=iskandr.nl",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877121"
+      },
+      {
+        "url": "https://www.anthropic.com/research/many-shot-jailbreaking?utm_source=www.aiwithvibes.com&utm_medium=referral&utm_campaign=this-jailbreak-is-super-impressive",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877128"
+      },
+      {
+        "url": "https://www.anthropic.com/research/many-shot-jailbreaking?utm_source=newsletter.ai&utm_medium=referral&utm_campaign=could-apple-s-realm-revolutionize-how-we-use-siri",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877135"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model?ref=josephnoelwalker.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877142"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model?ref=romainlemenorel.io",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877151"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model?ref=systemic.engineering",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877157"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model?utm_source=www.turingpost.com&utm_medium=referral&utm_campaign=fod-54-relatively-quiet-week-in-ai-is-still-full-of-storms",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877166"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model?utm_source=bensbites&utm_medium=newsletter&utm_campaign=daily-digest-how-llms-think",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877173"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model?utm_source=tldrsec.com&utm_medium=referral&utm_campaign=tl-dr-sec-235-threat-hunting-in-snowflake-aws-incident-query-cheatsheet-securing-ai-infra",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877181"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mcp-adoption-2026",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877187"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-agent-autonomy?ref=codeongrass.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877192"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-agent-autonomy?utm_source=thesummary.ai&utm_medium=referral&utm_campaign=nano-banana-2",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877199"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-agent-autonomy?utm_source=100-school.beehiiv.com&utm_medium=referral&utm_campaign=84-of-people-have-never-used-ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877208"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-ai-agent-autonomy-in-practice?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877215"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-model-efficiency",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877221"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-model-capabilities",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877229"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-model-persuasiveness?ref=yapaygundem.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877236"
+      },
+      {
+        "url": "https://www.anthropic.com/research/measuring-model-persuasiveness?utm_source=agenthunter.io&utm_medium=news&utm_campaign=newsletter",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877243"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview-cybersecurity",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877250"
+      },
+      {
+        "url": "https://www.anthropic.com/research/model-specification?ref=blog.thenoblehouse.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877255"
+      },
+      {
+        "url": "https://www.anthropic.com/research/multi-agent-effectiveness",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877261"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=ajianaz.dev",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877268"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?hl=en-US",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877275"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=cybersecondline.io",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877282"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=ghost.neorex.xyz",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877287"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=glassbeadgame.ai.kr",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877292"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=nolongersmartest.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877298"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=posthumain.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877305"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=pr.ogra.ms",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877311"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=tapestry.news",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877318"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=tokenlimit.news",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877323"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?ref=thetechstreetnow.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877332"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?utm_source=www.cloudsecuritynewsletter.com&utm_medium=referral&utm_campaign=ai-discovers-thousands-of-zero-days-lessons-from-catching-what-edr-can-t-see",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877337"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mythos-preview?utm_source=tldrai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877343"
+      },
+      {
+        "url": "https://www.anthropic.com/research/n-days?ref=blog.pridesec.com.br",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877350"
+      },
+      {
+        "url": "https://www.anthropic.com/research/n-days?utm_source=www.vulnu.com&utm_medium=referral&utm_campaign=vulnerable-u-172",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877358"
+      },
+      {
+        "url": "https://www.anthropic.com/research/natural-language-autoencoder",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877364"
+      },
+      {
+        "url": "https://www.anthropic.com/research/natural-language-autoencoders?ref=alessiopomaro.it",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877370"
+      },
+      {
+        "url": "https://www.anthropic.com/research/natural-language-autoencoders%3C/a%3E...",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877376"
+      },
+      {
+        "url": "https://www.anthropic.com/research/natural-language-autoencoders?ref=cognitiverevolution.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877382"
+      },
+      {
+        "url": "https://www.anthropic.com/research/natural-language-autoencoders?ref=mpt.solutions",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877390"
+      },
+      {
+        "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers/?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877395"
+      },
+      {
+        "url": "https://www.anthropic.com/research/natural-language-autoencoders?utm_source=aipulsehq_newsletter",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877401"
+      },
+      {
+        "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877407"
+      },
+      {
+        "url": "https://www.anthropic.com/research/on-the-biology-of-a-large-language-model",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877412"
+      },
+      {
+        "url": "https://www.anthropic.com/research/open-source-circuit-tracing?ref=news.aikoreacommunity.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877417"
+      },
+      {
+        "url": "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=www.theaivalley.com&utm_medium=referral&utm_campaign=apple-research-questions-ai-reasoning-models",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877423"
+      },
+      {
+        "url": "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=newsletter.thedailybite.co&utm_medium=referral&utm_campaign=deepseek-digs-deep",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877428"
+      },
+      {
+        "url": "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=www.bigdatanewsweekly.com&utm_medium=referral&utm_campaign=deepseek-r1-update-outperforms-gemini-on-code",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877433"
+      },
+      {
+        "url": "https://www.anthropic.com/research/open-source-circuit-tracing?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=meta-s-ai-advertising-takeover",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877438"
+      },
+      {
+        "url": "https://www.anthropic.com/research/persona-selection-model?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877443"
+      },
+      {
+        "url": "https://www.anthropic.com/research/persona-vectors?utm_source=aibreakfast.beehiiv.com&utm_medium=referral&utm_campaign=anthropic-s-ai-vaccines-scaling-gamble-and-why-it-shut-openai-out",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877449"
+      },
+      {
+        "url": "https://www.anthropic.com/research/petri-open-source-auditing?ref=blog.cc-korea.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877455"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-deal?ref=deconstructingbabel.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877461"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877469"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=zuck-s-ai-secret-list&_bhlid=60bf8118bf00821bbb443c04f708baf547440e6f",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877474"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?utm_source=storythings-newsletter&utm_medium=referral&utm_campaign=30-minutes-with-a-stranger-can-claude-run-a-small-shop-and-good-taste-is-more-important-than-ever",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877478"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?ref=blog.mozilla.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877485"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?utm_source=devthink.ai&utm_medium=referral&utm_campaign=mastering-reasoning-llms-a-developer-s-guide-to-advanced-ai-applications",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877491"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?utm_source=www.joinhorizon.ai&utm_medium=referral&utm_campaign=meta-s-recruiting-blitz-claims-four-more-openai-researchers",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877497"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?utm_source=www.aipeanuts.com&utm_medium=referral&utm_campaign=meta-s-superintelligenz-offensive-der-teure-kampf-gegen-openai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877503"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?utm_source=agenthunter.io&utm_medium=news&utm_campaign=newsletter",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877508"
+      },
+      {
+        "url": "https://www.anthropic.com/research/project-vend-1?utm_source=www.therundown.ai&utm_medium=referral&utm_campaign=zuck-s-ai-secret-list",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877515"
+      },
+      {
+        "url": "https://www.anthropic.com/research/prompt-injection-defenses?ref=swarmsignal.net",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877521"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_source=beginnersinai.beehiiv.com&utm_medium=newsletter&utm_campaign=anthropic-finds-ai-isn-t-faithful-and-still-cannot-be-trusted-fully&_bhlid=cd66a5fdce8f0c61b222a8f8632967715f56671a",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877526"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9lCOMYhReQ7DEah0gBQleV6i6ku_Dm3L4v0cHo7FUf9FBk13tUKBSzetXgxlpiy-UaB9rw",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877532"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think?s=08",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877538"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_source=devthink.ai&utm_medium=newsletter&utm_campaign=extending-llms-with-mcp-servers",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877545"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think?utm_source=futuretools.io&utm_medium=newspage",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877550"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reward-hacking",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877555"
+      },
+      {
+        "url": "https://www.anthropic.com/research/reward-tampering?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877561"
+      },
+      {
+        "url": "https://www.anthropic.com/research/signs-of-self-knowledge-in-llms",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877568"
+      },
+      {
+        "url": "https://www.anthropic.com/research/small%C2%ADsamples%C2%ADpoison",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877572"
+      },
+      {
+        "url": "https://www.anthropic.com/research/small-samples-poison?amp=",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877578"
+      },
+      {
+        "url": "https://www.anthropic.com/research/small-samples-poison?ref=birchtree.me",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877583"
+      },
+      {
+        "url": "https://www.anthropic.com/research/small-samples-poison?ref=felienne.nl",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877589"
+      },
+      {
+        "url": "https://www.anthropic.com/research/small-samples-poison?utm_source=futurproche&utm_medium=newsletter&utm_campaign=le-pacte-de-moloch",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877594"
+      },
+      {
+        "url": "https://www.anthropic.com/research/small-samples-poison?utm_source=perplexity",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877599"
+      },
+      {
+        "url": "https://www.anthropic.com/research/smart-contracts?ref=cognitiverevolution.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877604"
+      },
+      {
+        "url": "https://www.anthropic.com/research/smart-contracts?utm_source=deeptechnewsletter.com&utm_medium=newsletter&utm_campaign=deept-tech-newsletter",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877611"
+      },
+      {
+        "url": "https://www.anthropic.com/research/smart-contracts?ref=platformer.news",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877617"
+      },
+      {
+        "url": "https://www.anthropic.com/research/sycophancy-in-llms",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877623"
+      },
+      {
+        "url": "https://www.anthropic.com/research/subliminal-learning?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877628"
+      },
+      {
+        "url": "https://www.anthropic.com/research/teaching-claude-why?utm_source=www.techbuzz.ai&utm_medium=referral&utm_campaign=silicon-valley-s-china-damage-control-tour",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877635"
+      },
+      {
+        "url": "https://www.anthropic.com/research/team/societal-impacts?ref=blog.cc-korea.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877642"
+      },
+      {
+        "url": "https://www.anthropic.com/research/teaching-claude-why?utm_source=www.aisidequest.com&utm_medium=referral&utm_campaign=the-peer-review-system-is-breaking-can-ai-fix-it",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877646"
+      },
+      {
+        "url": "https://www.anthropic.com/research/the-anthropic-economic-index?ref=ghost.neorex.xyz",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877652"
+      },
+      {
+        "url": "https://www.anthropic.com/research/towards-understanding-sycophancy-in-ai-systems?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877658"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=cognitiverevolution.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877663"
+      },
+      {
+        "url": "https://www.anthropic.com/research/teaching-claude-why",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877668"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=dawid.ai",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877674"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=en.thedavestack.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877679"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=labnotes.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877685"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=ryanmcdonough.co.uk",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877691"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?ref=torment-nexus.mathewingram.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877696"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?utm_source=devthink.ai&utm_medium=newsletter&utm_campaign=enhancing-document-search-with-visual-rag",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877701"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?utm_source=6thwave-ai-newsletter.beehiiv.com&utm_medium=referral&utm_campaign=openai-unveils-new-image-generator-with-controversial-content-changes",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877707"
+      },
+      {
+        "url": "https://www.anthropic.com/research/tracing-thoughts-language-model?utm_source=curvelabs.org",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877712"
+      },
+      {
+        "url": "https://www.anthropic.com/research/trustworthy-agents?utm_source=chatgpt.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877717"
+      },
+      {
+        "url": "https://www.anthropic.com/research/understanding-sycophancy",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877724"
+      },
+      {
+        "url": "https://www.anthropic.com/research/values-wild?",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877731"
+      },
+      {
+        "url": "https://www.anthropic.com/research/trustworthy-agents",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877736"
+      },
+      {
+        "url": "https://www.anthropic.com/research/values-wild?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=anthropic-maps-ai-s-moral-compass&_bhlid=1515b6c2b410c180d00acfb4ec6117d9bd52392a",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877741"
+      },
+      {
+        "url": "https://www.anthropic.com/research/vibe-physics?ref=blog.pridesec.com.br",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877747"
+      },
+      {
+        "url": "https://www.anthropic.com/research/values-wild?utm_source=news.workwithai.com&utm_medium=referral&utm_campaign=anthropic-s-new-study-reveals-claude-s-morals-and-ethics",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877755"
+      },
+      {
+        "url": "https://www.anthropic.com/research/visible-extended-thinking?ref=brunoscheufler.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877763"
+      },
+      {
+        "url": "https://www.anthropic.com/research/visible-extended-thinking?utm_source=aitangle.com&utm_medium=referral&utm_campaign=anthropic-releases-a-new-code-maestro-sonnet-model-dev-tool-to-boot",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877770"
+      },
+      {
+        "url": "https://www.anthropic.com/research/visible-extended-thinking?utm_source=previouslyontech.com&utm_medium=referral&utm_campaign=sparking-creativity-with-ai-episode-6",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877776"
+      },
+      {
+        "url": "https://www.anthropic.com/research/when-ai-builds-itself?ref=jeroenteunisse.nl",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877784"
+      },
+      {
+        "url": "https://www.anthropic.com/research/zero-days?ref=31337infosec.com",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877791"
+      },
+      {
+        "url": "https://www.anthropic.com/research/zero-days?utm_source=productos-ai.com&utm_medium=blog&utm_campaign=claude-opus-4-6-jailbreak-analisis",
+        "source": "anthropic.com",
+        "discovered_at": "2026-08-04T23:28:03.877795"
+      }
+    ],
+    "numpy.org": []
   },
   "source_metrics": {
     "arxiv.org": {
@@ -203189,6 +205782,16 @@
       "domain": "numpy.org",
       "error": "Timeout",
       "timestamp": "2026-08-05T08:31:49.453649"
+    },
+    {
+      "domain": "research.google",
+      "error": "Timeout",
+      "timestamp": "2026-08-04T23:21:03.205330"
+    },
+    {
+      "domain": "docs.python.org",
+      "error": "Timeout",
+      "timestamp": "2026-08-04T23:27:18.287387"
     }
   ]
 }
